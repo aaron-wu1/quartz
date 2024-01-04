@@ -7,9 +7,9 @@ Stands for **U**nified **M**odeling **L**anguage. Used to model software solutio
 
 ### UML Diagram Types
 #### Structure Diagrams:
-- [[notes/Technical Diagrams#Class Diagram|Class Diagram]]
+- [[Technical Diagrams#Class Diagram|Class Diagram]]
 #### Behavioral Diagrams:
-- [[notes/Technical Diagrams#Activity Diagram|Activity Diagram]]
+- [[Technical Diagrams#Activity Diagram|Activity Diagram]]
 - [[#Sequence Diagram]]
 
 ### Class Diagram
