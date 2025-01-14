@@ -1,3 +1,7 @@
+---
+title: Focusing Your Unconscious Mind
+date: 2024-01-03
+---
 ### Big Idea
 Learning hard concepts using intuition.
 
