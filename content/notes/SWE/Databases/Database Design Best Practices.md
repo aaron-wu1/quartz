@@ -1,3 +1,7 @@
+---
+title: Database Design Best Practices
+date: 2024-01-04
+---
 ### Consider
 - Minimizing redundancy
 - Protecting accuracy

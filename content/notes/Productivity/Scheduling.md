@@ -1,5 +1,6 @@
 ---
 title: "Scheduling"
+date: 2024-01-04
 tags:
 - productivity
 ---

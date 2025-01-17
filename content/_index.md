@@ -23,3 +23,9 @@ There are two goals of this space:
 
 1. To share what I’ve learned in the hopes of helping others the same way I found help through online blogs
 2. To put my knowledge out in public to be challenged and critiqued as a form of learning
+
+The planned structure is written work that I spend time drafting would go under "writing" and leave any fleeting thoughts as "notes".
+
+Hopefully you find something intresting here and I'm glad that you've visited!
+
+\- Aaron :\)

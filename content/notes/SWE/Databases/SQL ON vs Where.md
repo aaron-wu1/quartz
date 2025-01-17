@@ -1,3 +1,7 @@
+---
+title: SQL ON vs WHERE
+date: 2024-01-04
+---
 ON is used when referencing joins and where is used for filtering data. Explicit join is using ON and implicit join is used with WHERE. 
 
 Performance-wise both are identical but for readability is better to use ON to separate out when you are using WHERE to joining tables or filtering a table.

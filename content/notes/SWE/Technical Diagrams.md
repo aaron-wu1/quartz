@@ -1,5 +1,6 @@
 ---
 title: "Technical Diagrams"
+date: 2024-01-04
 ---
 
 # UML Diagrams

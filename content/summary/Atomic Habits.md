@@ -1,5 +1,6 @@
 ---
 title: "Atomic Habits"
+date: 2024-01-04
 ---
 From Atomic Habits by James Clear
 ## **3 Key Lessons**

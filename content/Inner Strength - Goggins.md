@@ -1,3 +1,7 @@
+---
+title: Inner Strength - Goggins
+date: 2024-01-04
+---
 - **Haunted**: don't rely on the hope factor. It's going to suck, there isn't a dopamine reward at the end. 
 
 - **Stick vs Carrot**: don't rely on motivation. Focus on doing or the process. Build a system of doing
@@ -15,7 +19,6 @@
 - **Create a second voice**: that second voice should be louder that the voice of truth that wants you out of tough situations. A voice that accept challenges. Look at [[Focusing Your Unconscious Mind]]
 
 - **Control your symphony of inner dialog**: Sit down with your thoughts and identify your inner self, develop this dialog into actions that you want to do for yourself
-
 
 source:
 https://www.youtube.com/watch?v=nDLb8_wgX50&t=4134s

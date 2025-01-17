@@ -1,3 +1,7 @@
+---
+title: Table Inheritance
+date: 2024-01-04
+---
 Used to mimic object-relationship in relational databases. Use when objects share fields/attributes but different methods/interactions.
 
 For example in the source example, a possible use case of capitals is the need in your system to query capitals a lot or want to subset without capitals a lot. Makes it more readable too.
