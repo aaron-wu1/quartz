@@ -1,6 +1,7 @@
 ---
 title: Hi, I'm Aaron! 
 enableToc: false
+date: 2024-01-19
 ---
 
 ## About Me
