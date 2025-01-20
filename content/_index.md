@@ -11,7 +11,7 @@ Previously worked at [jLab in Smart Sensing](https://sensors.soe.ucsc.edu/) as a
 
 Also previously a Undergraduate Research Fellow at [Tech4good](https://tech4good.soe.ucsc.edu/), building a qualitative anaylsis learning platform utilizing crowd work to improve teaching.
 
-View my [resume](./resume.pdf) for my professional work
+View my [resume](./resume/Aaron_Wu_Resume.pdf) for my professional work
 
 ## What is this?
 
