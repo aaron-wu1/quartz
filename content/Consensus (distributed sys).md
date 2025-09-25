@@ -1,3 +1,7 @@
+---
+title: "Consensus (distributed sys)"
+date: "2025-09-25"
+---
 ## Definition
 Fulfills two conditions:
 1. agreement on shared state

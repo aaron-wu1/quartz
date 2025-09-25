@@ -1,3 +1,7 @@
+---
+title: "Bloom Filters"
+date: "2025-09-25"
+---
 Space efficient data structure that quickly checks if given element **e** is **not in** the dataset. 
 
 ## How?

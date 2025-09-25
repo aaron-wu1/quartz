@@ -1,3 +1,7 @@
+---
+title: "UI Virtualization"
+date: "2025-09-25"
+---
 
 Used tanstack virtual to virtualize large element lists
 

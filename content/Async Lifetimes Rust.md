@@ -1,3 +1,7 @@
+---
+title: "Async Lifetimes Rust"
+date: "2025-09-25"
+---
 ```rust
 // This function: 
 async fn foo(x: &u8) -> u8 { *x } 

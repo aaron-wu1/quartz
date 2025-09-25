@@ -1,3 +1,7 @@
+---
+title: "ARC rust"
+date: "2025-09-25"
+---
 
 Atomic Reference Counter pointer - thread safe smart pointer that allows multiple parts of your program to share ownership of some data
 
