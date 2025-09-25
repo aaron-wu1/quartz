@@ -10,7 +10,7 @@ I'm currently a MS CS student at University of California, San Diego
 
 My past experiences include:
 
-- [Lawerence Livermore National Laboratory](https://www.llnl.gov/) as a Software Engineering Intern on search; improving access and discovery of digital assets in a data repository platform  
+- [Lawerence Livermore National Laboratory](https://www.llnl.gov/) as a Software Engineering Intern on search, improving access and discovery of digital assets in a data repository platform  
 
 - [jLab in Smart Sensing](https://sensors.soe.ucsc.edu/) as a Full Stack Developer, building a microbial fuel cell data monitoring platform
 
