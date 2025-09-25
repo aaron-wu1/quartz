@@ -8,9 +8,13 @@ date: 2024-01-19
 
 I'm currently a MS CS student at University of California, San Diego
 
-Previously worked at [jLab in Smart Sensing](https://sensors.soe.ucsc.edu/) as a Full Stack Developer, building a microbial fuel cell data monitoring platform.
+My past experiences include:
 
-Also previously a Undergraduate Research Fellow at [Tech4good](https://tech4good.soe.ucsc.edu/), building a qualitative anaylsis learning platform utilizing crowd work to improve teaching.
+- [Lawerence Livermore National Laboratory](https://www.llnl.gov/) as a Software Engineering Intern on search; improving access and discovery of digital assets in a data repository platform  
+
+- [jLab in Smart Sensing](https://sensors.soe.ucsc.edu/) as a Full Stack Developer, building a microbial fuel cell data monitoring platform
+
+- [Tech4good](https://tech4good.soe.ucsc.edu/) as a Undergraduate Research Fellow and Software Engineer, building a qualitative anaylsis learning platform utilizing crowd work to improve teaching.
 
 View my [resume](./resume/Aaron_Wu_Resume.pdf) for my professional work
 
