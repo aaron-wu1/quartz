@@ -13,7 +13,7 @@ const recentNotes = [
   }),
   Component.RecentNotes({
     title: "Recent Notes",
-    limit: 4,
+    limit: 2,
     showTags: false,
   }),
 ]
