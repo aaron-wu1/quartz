@@ -2,11 +2,27 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { SimpleSlug } from "./quartz/util/path"
 
+const recentNotes = [
+  Component.RecentNotes({
+    title: "Recent Writing",
+    limit: 4,
+    filter: (f) =>
+      f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
+    linkToMore: "posts/" as SimpleSlug,
+    showTags: false,
+  }),
+  Component.RecentNotes({
+    title: "Recent Notes",
+    limit: 4,
+    showTags: false,
+  }),
+]
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [...recentNotes.map((c) => Component.MobileOnly(c))],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/aaron-wu1/",
@@ -29,25 +45,16 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Writing",
-        limit: 4,
-        filter: (f) =>
-          f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
-        linkToMore: "posts/" as SimpleSlug,
-        showTags: false,
-      }),
-    ),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 4,
-        showTags: false,
-      }),
-    ),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+      ],
+    }),
+    ...recentNotes.map((c) => Component.DesktopOnly(c)),
     Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [
