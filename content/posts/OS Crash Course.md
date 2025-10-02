@@ -2,63 +2,14 @@
 title: OS Crash Course
 date: 2025-06-08
 tags:
-  - os
-  - kernel
-  - abstractions
-  - design-requirements
-  - performance
-  - protection
-  - security
-  - reliability
-  - process
-  - program
-  - cpu
-  - memory
-  - filesystem
-  - networking
-  - io
-  - virtualization
-  - cpu-virtualization
-  - virtual-memory
-  - persistence
-  - policies
+  - operating-systems
+  - processes
   - scheduling
-  - process-lifecycle
-  - process-api
-  - fork
-  - exec
-  - signals
-  - isolation
-  - limited-direct-execution
-  - context-switch
-  - timer-interrupts
-  - preemption
-  - fcfs
-  - sjf
-  - round-robin
-  - sctf
-  - convoy-effect
-  - address-space
-  - paging
-  - address-translation
-  - page-table
-  - swap-space
-  - thrashing
-  - fragmentation
-  - working-set
+  - memory
+  - virtualization
+  - file-systems
   - ipc
-  - message-passing
-  - shared-memory
-  - mutex
-  - file-system
-  - inode
-  - metadata
-  - directory
-  - file-descriptor
-  - storage
-  - data-integrity
-  - hypervisor
-  - multithreading
+  - security
 ---
 
 All the most important content IMO
