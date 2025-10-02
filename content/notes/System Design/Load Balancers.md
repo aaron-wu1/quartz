@@ -1,3 +1,7 @@
+---
+date: 2025-05-29
+tags:
+---
 ## Purpose
 To distribute requests and traffic evenly across multiple servers
 
