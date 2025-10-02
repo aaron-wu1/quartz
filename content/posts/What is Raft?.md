@@ -1,6 +1,13 @@
 ---
 title: What is Raft?
 date: 2025-01-20
+tags:
+  - distributed-systems
+  - consensus
+  - raft
+  - leader-election
+  - fault-tolerance
+  - replication
 ---
 ## Background
 Raft is a [[Consensus (distributed sys)|consensus]] algorithm designed to improve the reliability and fault tolerance of distributed systems. It's used as a consensus module for building replicated state machines. It utilizes a leader and follower model to maintain state.

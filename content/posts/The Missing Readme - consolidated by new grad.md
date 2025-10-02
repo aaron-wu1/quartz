@@ -1,6 +1,21 @@
 ---
 date: 2025-06-16
 title: The Missing Readme - consolidated by new grad
+tags:
+  - new-grad
+  - career-growth
+  - communication
+  - leadership
+  - documentation
+  - technical-design
+  - architecture
+  - dependencies
+  - testing
+  - code-review
+  - delivery
+  - on-call
+  - agile
+  - managers
 ---
 
 ## Preface
