@@ -1,5 +1,5 @@
 ---
 title: Isomorphic JS
-date: 2025-10-02
+date: 2025-09-25
 tags: 
 ---
