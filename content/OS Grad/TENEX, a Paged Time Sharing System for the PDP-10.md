@@ -19,6 +19,19 @@ TENEX is a new time sharing OS implemented on DEC PDP-10 (old mainframe computer
 Design Constraints:
 - Minimal changes made to PDP-10 processor and none to the basic address computation
 - that the system had to be in service for users within six month of operation of the HW
+
+**Lecture Notes**
+- Hardware was more extensible than today
+- Terminology
+	- different terms for the same thing
+		- monitor -> kernel
+	- same term for different things
+		- virtual machine (need to think about what we are virtualizing)
+			- hardware (VMware)
+			- language (Java) - bytecode
+				- virtualizing the bytecode layer
+			- OS syscall interface (TENEX)
+				- run multiple different processes
 ### Design Goals
 Falls into three broad categories:
 - State of the art virtual machine
@@ -140,7 +153,6 @@ Functions:
 		- file status: exists, access rights, etc
 		- the process requesting access to the file
 			- **File Access Protection** - should the other process be allowed to know about the existence of this file and at what level
-
 ### File Names
 TENEX file is named by a file descriptor composed of five fields
 - device name
@@ -179,6 +191,7 @@ Steps to use a file in TENEX:
 Simultaneous accessors of a file must be thawed or unthawed.
 
 ## The Monitor
+Kernel
 ### Scheduler
 Designed to meet a set of potentially conflicting requirements:
 1. equitable distribution of CPU service, at least 1/N of real time where there are N jobs on the system

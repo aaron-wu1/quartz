@@ -11,6 +11,8 @@ tags:
 source: https://dl.acm.org/doi/pdf/10.1145/361011.361061
 
 Q: What aspects of Unix as described in the 1974 paper do not survive today, or have been considerably changed?
+- Inode size determined by highest bit and inode bit for "large" and "small files"
+- surprisingly most haven't changed a lot 
 ## Abstract
 UNIX is a general-purpose, multi-user, interactive operating system for PDP-11/40 and 11/45 computers.
 Features:
@@ -165,5 +167,74 @@ How about reading and writing?
  - Uses a buffering mechanism to reduce I/O operations, (read and write to buffer)
  - UNIX will search its buffers to see whether the affected disk block resides in core memory, if not, it will be read in from the device. Then the affected byte is replaced in the buffer and an entry is made in a list of blocks to be written
 ## Processes and Images
-- *image* is a computer execution environment
-	- includes a core image, general register values, status of open files, current director and the liek
+- *image* is a computer execution environment (memory layout of a process)
+	- includes a core image, general register values, status of open files, current director and the like
+	- current state of a pseudo computer
+- *process* is an execution of an image
+	- image must be in core while processor is executing on behalf of a process
+- User-core part of an image is divided into three logical segments
+	- **text segment** at location 0 in the virtual address space
+		- during execution, this segment is write protected and a single copy of it shared among all processes
+	- **data segment** first 8K byte boundary in virtual address space begins a non-shared, writable data segment
+	- **stack segment** starting at the highest address in the virtual addr space, grows downward
+### Processes
+New process - *fork* system call
+`processid = fork(label)`
+Fork has different return points, so it can determine if it's a child or not, diff pid
+
+### Pipes
+Processes may communicate with related processes using same system *read* and *write* calls for file system I/O
+`filep = pipe()`
+
+### Execution of Programs
+`execute(file, args, argo, ..., arg,+)`
+
+### Process Synchronization
+`processid = wait( )`
+
+### Termination
+`exit(status)`
+
+## The Shell
+Command line interpreter - read lines from user and execute other programs
+- runs files with file name or checks `/bin/`
+### Standard I/O
+`< or >` makes teh process' file descriptors 0 or 1
+- fd 0 stdin (`<`), fd 1 stdout (`>`)
+
+### Filters
+`|` execute commands simultaneously and arrange the std output of the command to be delivered to the standard input of the next command (pipes)
+
+### Command Separators: Multitasking
+`;` inline commands
+`&` will not wait for command to finish before prompting
+
+### The Shell as a Command: Command files
+The shell itself is a command and may be called recursively
+
+### Implementation of the Shell
+- Majority of time is waiting
+- when user enters command and new line
+	- shell parses command into execute syscall
+	- fork is called to spin up the process
+	- attempts to execute
+	- waits for child to die, if `&` shell skips wait
+	- when child dies, shell returns to prompt
+
+### Initialization
+`init` process per terminal that users might log into
+- if user is logged in successfully change to their directory
+
+### Other Programs as Shell
+- Init invokes the shell to interpret command lines
+
+### Traps
+When faults cause the processor to trap to a system routine, the system terminates the process and writes the user's image on file core in the current directory to be debugged
+
+## Perspective
+Design:
+- easy to write, test and run programs
+- severe size constrains had to make it small
+- self maintenance, modularity, debugging, separation of concerns
+	- no control blocks (eg. complicated structures that are partially maintained by other system calls)
+

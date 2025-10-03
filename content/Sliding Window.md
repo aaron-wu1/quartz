@@ -1,5 +1,5 @@
 ---
 title: Sliding Window
-date: 2025-09-25
+date: 2025-10-02
 tags: 
 ---
