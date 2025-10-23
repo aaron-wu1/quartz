@@ -79,11 +79,22 @@ If so, the project administrator may indicate that his project will accept login
 
 ## Primary Memory Protection
 - A protected subsystem is a collection of procedures and data bases which are intended to be used only by calls to designated entry points, know in Multics as *gates*
-	- syscalls? for any domain
+	- you can only enter privileged code through these **gates**
 
 Multics and HYDRA similarity, memory is reference via pointers + rights bits
 ![[Screenshot 2025-10-08 at 5.10.51 PM.png]]
 
+
+## Design Comparison
+### Mechanism vs Policy
+- Mechanism - rings and gate segments act as the implementation for protection
+- Policy - decided by the system admin for how much protection each ring gets
+	- eg chmod can changes the policy of the file to read only
+Saltzer wanted Multics to have _mechanisms_ flexible enough that policies could evolve _without rewriting the kernel_.
+
+### ACLs
+- Access control lists were used over capabilities because it contained the full state of who can access a certain object (rights stored with the object). 
+- With capabilities, the system would have to track the capabilities somehow in relation to an object which is difficult since it's stored with the user.
 ## Weakness
 - 
 

@@ -63,6 +63,51 @@ Hydra’s execution is built around three object types:
 | Object Type                | Purpose                                                                                                                                                                                                                                                     |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Procedure**              | Code + static capabilities (list of objects it may access). Acts like a protected subroutine.                                                                                                                                                               |
-| **LNS (Local Name Space)** | Environment object created when a procedure is invoked → holds actual capabilities and parameter bindings.                                                                                                                                                  |
+| **LNS (Local Name Space)** | Environment object created when a procedure is invoked → holds actual capabilities and parameter bindings.<br>- acts a controlled scope for procedures                                                                                                      |
 | **Process**                | Dynamic execution thread = stack of LNSs (created by procedure calls).<br>- Each procedure call creates its own LNS with its own parameter bindings and capabilities<br>- Stack of LNSs is like a call stack but for both execution state and access rights |
 |                            |                                                                                                                                                                                                                                                             |
+
+## Protection model
+### Capability: rights and types
+Every _capability_ in Hydra isn’t just “a pointer” — it’s a triple:
+
+`(object ID, type, rights)`
+
+So a capability says:
+- **what** object it refers to,
+- **what kind of thing** that object is (e.g., segment, procedure, file),
+- and **what you’re allowed to do** (read, write, invoke, walk, etc.).
+Hydra checks both **type safety** and **right safety** whenever you use a capability.
+
+### Amplification: safe rights passing
+Sometimes, a procedure needs _extra rights_ to do its job (like an OS utility needing admin privileges).  
+Hydra’s solution is **amplification**.
+- A **procedure’s template** can specify certain **amplifiers**, which let that procedure temporarily **extend its rights** — but _only for specific capabilities_ and _only inside that call_.
+- The key idea: the caller doesn’t gain those rights, only the callee while it runs.
+```
+Procedure B: EditFile
+template allows "write" amplification for files owned by system
+```
+When invoked, Hydra gives B _amplified_ write access — but that privilege disappears when B returns.
+
+That means _least privilege_ is baked into the call structure.
+
+###  Type checking
+When a call is made:
+1. Hydra checks that the _types_ of the passed capabilities match the template.
+2. It verifies the caller’s rights are sufficient (and applies amplification if permitted).
+3. Then it builds the new LNS and runs the code.
+If anything doesn’t match, the call is rejected.
+
+
+### Example
+- IF you own a *capability* with high rights, you permanently gain those rights, like a master key.
+- A *template* can amplify rights even the caller doesn't have the capability or rights. But it only extends to that singular callee or within the call.
+
+### Overarching design principle
+HYDRA lets programmers build their own protected subsystems safely (eg. file systems, window manager). **If only the kernel had privileges then all those subsystems would have to live inside the kernel**. This makes the kernel small and the user code can do privileged work safely isolated.
+
+“**Mechanism in the kernel; policy in user space.**”
+- Mechanism - implantation of logic to handle rights, primitives to utilize resources
+- Policy - subsystems themselves determines how those mechanism are used
+
