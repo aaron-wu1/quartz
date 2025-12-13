@@ -72,7 +72,7 @@ Additional goals:
 The total system admits a string hierarchical structure:
 - Level 0 - responsibility for the processor allocation to one of the processes whose dynamic progress is logically permissible. Scheduler and timer interrupt
 	- abstracts the CPU, provides processes and scheduling. Takes processes and schedule them on CPU, by time slice process
-- Level 1 - "segment controller" synchronized with the drum interrupt and the sequential processes
+- Level 1 - "segment controller" synchronized with the drum interrupt and the sequential processes"
 	- responsible for managing memory, swap or paging system.
 	- abstraction: data segments (in modern terms: page)
 	- drum = hard disk 

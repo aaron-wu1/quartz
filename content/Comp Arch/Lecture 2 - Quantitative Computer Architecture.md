@@ -25,7 +25,7 @@ Metrics:
 160.7u 19.9s 4:15 71%  
 %
 ```
-Explanation of numbers in order: u = user CPU time, s = system CPU time, wall-clock time (actual real world time that passes), percent of CPU time
+Explanation of numbers in order: `u = user CPU time, s = system CPU time, wall-clock time (actual real world time that passes), percent of CPU time`
 - Why is wall clock time not matching CPU time?
 	- I/O, Swaps
 
@@ -96,3 +96,5 @@ $CPI = CPU\ clock\ cycles / Instruction\ count$
 **Deep pipeline**: refers to a processor design where the instruction exectuion process is divided into a greater number of stages than shallower pipelines
 
 Strength reduction -> simpler instructions -> easier to pipeline -> lowers CPI
+
+

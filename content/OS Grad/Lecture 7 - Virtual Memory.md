@@ -14,6 +14,7 @@ Goals:
 	- memory on machines at the time: 250KB-8MB physical memory
 
 ### Address Spaces
+![[Screenshot 2025-12-07 at 11.40.16 AM.png]]
 Large 32 bit addr spaces from 0 -> 2^32
 ![[VAX ADDR]]
 OS is mapped to every process because it has reserved space
@@ -103,7 +104,7 @@ Systems derived from it:
 	- Gamecube
 
 ### Goal
-- virtual memory that is machine independent
+- Virtual memory that is machine independent
 	- hardware differences:
 		- single processor vs multi processor
 		- non-uniform memory
@@ -140,5 +141,5 @@ Systems derived from it:
 	- if you discard some of it it's still maintained in some other data structures????
 
 ### Summary Mach
-- separate VM representation from  machine dependent and machine independent
+- Separate VM representation from machine dependent and machine independent
 

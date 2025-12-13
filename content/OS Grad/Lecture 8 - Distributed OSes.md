@@ -1,6 +1,8 @@
 ---
 date: 2025-10-21
 tags:
+  - OS
+  - distributed-systems
 ---
 - interfaces - exposed vs transparent
 - Centralization vs distribution
