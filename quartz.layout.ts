@@ -13,6 +13,7 @@ const recentNotes = [
   }),
   Component.RecentNotes({
     title: "Recent Notes",
+    filter: (f) => !f.slug!.startsWith("posts/") && !f.slug!.startsWith("Excalidraw/"),
     limit: 2,
     showTags: false,
   }),
