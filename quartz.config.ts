@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import "dotenv/config"
 
 /**
  * Quartz 4 Configuration
@@ -13,7 +14,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: process.env.GOOGLE_ANALYTICS_TAG,
     },
     locale: "en-US",
     baseUrl: "aaronwu.dev",
