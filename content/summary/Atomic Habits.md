@@ -1,7 +1,10 @@
 ---
-title: "Atomic Habits"
 date: 2024-01-04
+tags:
+- personal-growth
+title: Atomic Habits
 ---
+
 From Atomic Habits by James Clear
 ## **3 Key Lessons**
 - Small habits

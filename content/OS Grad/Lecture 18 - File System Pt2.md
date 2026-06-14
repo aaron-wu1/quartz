@@ -1,10 +1,15 @@
 ---
 date: 2025-12-02
 tags:
-  - "#file-system"
-  - "#operating-systems"
-  - "#filesystem-consistency"
+- operating-systems
+- storage
+- performance
+- caching
+- concurrency
+- computer-architecture
+title: Lecture 18 - File System Pt2
 ---
+
 ## Problem
 **FS consistency after a crash**
 

@@ -1,7 +1,14 @@
 ---
 date: 2025-10-17
 tags:
+- distributed-systems
+- caching
+- performance
+- concurrency
+- ai
+title: Lec 9 LLM Serving Pt.1 Prefix Caching
 ---
+
 Overview of [[Preble Efficient Distributed Prompt Scheduling for LLM Serving]]
 ## It's all about prompting
 Prompt example![[Screenshot 2025-10-17 at 9.06.02 AM.png]]

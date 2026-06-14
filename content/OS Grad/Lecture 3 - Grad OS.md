@@ -1,7 +1,15 @@
 ---
 date: 2025-10-02
-tags: 
+tags:
+- operating-systems
+- virtualization
+- caching
+- concurrency
+- performance
+- storage
+title: Lecture 3 - Grad OS
 ---
+
 ## TENEX Paper
 ### Introduction
 - Hardware was more extensible than today

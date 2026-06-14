@@ -1,7 +1,15 @@
 ---
 date: 2025-10-23
 tags:
+- operating-systems
+- computer-architecture
+- performance
+- security
+- concurrency
+- virtualization
+title: Lecture 9 - Extending the OS
 ---
+
 ## Goal: move OS functionality to user level
 
 ![[u-kernels]]
@@ -93,8 +101,3 @@ Example:
 ### Exokernel Summary
 - untrusted library operating systems - manage HW resources directly
 - protection using secure bindings
-
-
-
-
-

@@ -1,7 +1,16 @@
 ---
 date: 2025-11-18
 tags:
+- operating-systems
+- virtualization
+- performance
+- concurrency
+- computer-architecture
+- distributed-systems
+- security
+title: Lecture 16 - Networking
 ---
+
 ## Datacenters
 - Applications must scale
 - Network: 100-400 Gbit/s -> packet can arrive every ~120ns

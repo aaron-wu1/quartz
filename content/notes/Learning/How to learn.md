@@ -1,9 +1,10 @@
 ---
-title: "How to learn"
-date: "2023-12-31"
+date: '2023-12-31'
 tags:
-- learning
+- personal-growth
+title: How to learn
 ---
+
 Strong learning:
 - growing strong brain connections is a physical process 
 

@@ -1,7 +1,11 @@
 ---
-title: MVC model
 date: 2024-01-03
+tags:
+- programing-language
+- computer-architecture
+title: MVC model
 ---
+
 ### Definition
 MVC - Model-View-Controller
 A pattern in software design commonly used to implement user interfaces, data, and controlling logic. 

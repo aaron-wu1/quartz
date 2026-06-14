@@ -1,7 +1,15 @@
 ---
 date: 2025-11-06
 tags:
+- operating-systems
+- caching
+- performance
+- computer-architecture
+- storage
+- ai
+title: MemGPT Towards LLMs as Operating Systems
 ---
+
 source: [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
 ## Summary
 
@@ -16,5 +24,3 @@ MemGPT uses a hierarchy of: main memory that represents the active prompt contex
 2. How would you redesign the memory hierachy for throughput-oriented tasks?
 
 For throughput-oriented tasks, I’d shift MemGPT’s design from LLM paging to a system-managed cache hierarchy. The system would prefetch and batch retrievals so multiple documents or inputs are processed in parallel, reducing pauses from recall calls. The prefetch would be based on a semantic vector retrieval in the query like names or topics or anything that localizes the meaning of the tasks the LLM can decide if they work or if it's a miss. Intermediate caches could hold frequently used chunks to minimize further function calls. The quality would dip, but it would reduce the work that the LLM does in paging.
-
-

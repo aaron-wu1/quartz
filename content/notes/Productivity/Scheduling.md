@@ -1,9 +1,10 @@
 ---
-title: "Scheduling"
 date: 2024-01-04
 tags:
-- productivity
+- personal-growth
+title: Scheduling
 ---
+
 **Scheduling removes ambiguity**
 
 Concepts:
@@ -16,6 +17,3 @@ Concepts:
 1. Schedule most important tasks for the hours in which you have the most energy
 	- Typically late morning 
 2. 12
-
-
-

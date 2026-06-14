@@ -1,7 +1,14 @@
 ---
 date: 2025-11-20
 tags:
+- operating-systems
+- storage
+- performance
+- caching
+- computer-architecture
+title: Lecture 17 - File Systems
 ---
+
 Windowes NTFS
 
 NetApp - WAFL
@@ -84,5 +91,3 @@ Cleanring policy:
 
 Slower reads?
 - LFS has to introduce inode maps, because there is no location for anything in FS
-
-

@@ -1,7 +1,10 @@
 ---
-title: Compiled vs Interpreted Languages
 date: 2024-03-22
+tags:
+- programing-language
+title: Compiled vs Interpreted Languages
 ---
+
 # Compiled Languages
 For compiled program, you can run it without the original source code.
 ## Examples

@@ -1,7 +1,10 @@
 ---
-title: Object Oriented Programing 
 date: 2024-01-04
+tags:
+- programing-language
+title: Object Oriented Programing
 ---
+
 ### Notes:
 - Outline problem specifications first.
 	- Questions to ask yourself:

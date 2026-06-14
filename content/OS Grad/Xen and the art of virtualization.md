@@ -1,7 +1,13 @@
 ---
 date: 2025-10-27
 tags:
+- virtualization
+- performance
+- operating-systems
+- computer-architecture
+title: Xen and the art of virtualization
 ---
+
 source: https://dl.acm.org/doi/abs/10.1145/1165389.945462
 
 ## Question
@@ -128,5 +134,3 @@ Two main factors have shaped the design of our I/O-transfer mechanism:
 Xen is only involved in page table *updates*, to prevent guest OSes from making unacceptable changes. No need for *shadow page tables* like in an full virtualization setup.
 - Page table updates are passed through Xen via hypercall and validated before applied (can be batched)
 - Guest OS typically flush TLB before new mapping
-
-

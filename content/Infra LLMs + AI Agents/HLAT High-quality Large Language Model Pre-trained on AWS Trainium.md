@@ -1,7 +1,15 @@
 ---
 date: 2025-10-05
-tags: 
+tags:
+- distributed-systems
+- performance
+- computer-architecture
+- concurrency
+- ai
+- communication
+title: HLAT High-quality Large Language Model Pre-trained on AWS Trainium
 ---
+
 ## Summary and Questions
 The paper presents utilizing AWS Trainium, a new lower cost machine learning accelerator, to pretrain high quality LLM modes. They showcase 2 models (7B and 70B) trained with AWS Trainium and found that it was comparable to popular open source models at a fraction of cost of Nvidia A100 40GB GPUs. They also share best practices of utilizing NeuronX Distributed Training a custom training library for AWS Trainium.
 

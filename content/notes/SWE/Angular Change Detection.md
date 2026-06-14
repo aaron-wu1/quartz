@@ -1,7 +1,11 @@
 ---
-title: Angular Change Detection
 date: 2024-01-04
+tags:
+- programing-language
+- performance
+title: Angular Change Detection
 ---
+
 ### How Angular renders components?
 For each component that is used in an Angular app, the Angular compiler generates a **factory**.
 

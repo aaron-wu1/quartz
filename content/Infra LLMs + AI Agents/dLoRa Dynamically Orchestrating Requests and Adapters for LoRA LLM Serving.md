@@ -1,7 +1,14 @@
 ---
 date: 2025-10-23
 tags:
+- distributed-systems
+- performance
+- concurrency
+- computer-architecture
+- ai
+title: dLoRa Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving
 ---
+
 source: https://www.usenix.org/conference/osdi24/presentation/wu-bingyang
 
 ## Summary
@@ -46,4 +53,3 @@ It also **groups requests** with the same adapter and **schedules them** intelli
 
 ## Dynamic Batching
 Within a replica, dLoRA uses a local cross-adapter batching technique to process requests from the global scheduler. The replica maintains a queue to buffer incoming requests and schedules a batch of requests to the execution engine with dynamic batching to achieve optimal tradeoff between merged and unmerged inference.
-

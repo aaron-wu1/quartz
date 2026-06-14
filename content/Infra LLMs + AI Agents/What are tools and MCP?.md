@@ -1,6 +1,11 @@
 ---
 date: 2025-11-02
 tags:
+- security
+- performance
+- distributed-systems
+- ai
+title: What are tools and MCP?
 ---
 
 source: [What are Tools?](https://huggingface.co/learn/agents-course/en/unit1/tools) and [Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)

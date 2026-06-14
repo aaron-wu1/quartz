@@ -1,7 +1,11 @@
 ---
-title: Hashing
 date: 2024-01-05
+tags:
+- performance
+- databases
+title: Hashing
 ---
+
 ### Definition
 Generating fixed-sized output from an input variable size using mathematical functions known as hash functions
 

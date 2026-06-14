@@ -1,7 +1,10 @@
 ---
 date: 2025-10-11
-tags: 
+tags:
+- computer-architecture
+title: Lecture 5 - Pipeline Cont.
 ---
+
 ## Pipeline example
 ![[Screenshot 2025-10-11 at 2.40.09 PM.png]]
 
@@ -106,6 +109,3 @@ add R2, R5, R8 at label (target)
 - Data hazard and branch hazard reduction require complex compiler support
 - Exceptions are hard
 - variable-length instructions introduce structural hazards, WAW hazards, and more RAW hazards
-
-
-

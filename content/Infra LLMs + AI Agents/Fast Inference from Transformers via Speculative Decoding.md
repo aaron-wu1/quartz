@@ -1,8 +1,13 @@
 ---
 date: 2025-10-12
-tags: 
+tags:
+- performance
+- concurrency
+- computer-architecture
+- ai
+- caching
+title: Fast Inference from Transformers via Speculative Decoding
 ---
-
 
 Source: https://arxiv.org/abs/2211.17192
 ## Summary

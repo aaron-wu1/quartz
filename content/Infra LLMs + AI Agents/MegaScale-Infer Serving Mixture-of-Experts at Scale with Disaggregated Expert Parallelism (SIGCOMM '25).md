@@ -1,7 +1,14 @@
 ---
 date: 2025-10-28
 tags:
+- distributed-systems
+- performance
+- concurrency
+- ai
+title: MegaScale-Infer Serving Mixture-of-Experts at Scale with Disaggregated Expert
+  Parallelism (SIGCOMM '25)
 ---
+
 source: https://arxiv.org/abs/2504.02263v1
 ## Summary
 

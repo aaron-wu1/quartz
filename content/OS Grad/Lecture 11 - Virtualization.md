@@ -1,7 +1,14 @@
 ---
 date: 2025-10-30
 tags:
+- operating-systems
+- virtualization
+- security
+- performance
+- computer-architecture
+title: Lecture 11 - Virtualization
 ---
+
 ## Containers  + VServer
 **Planet Lab**
 - compute platform
@@ -156,7 +163,3 @@ Worried about **malicious hypervisors**
 - Confidential VMs - aim for confidentiality and integrity
 - Side-channel attacks
 - Core slicing: slices - dedicated hw resources
-
-
-
-

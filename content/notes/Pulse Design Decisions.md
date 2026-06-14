@@ -1,7 +1,15 @@
 ---
-title: Pulse Design Decision
 date: 2025-06-16
+tags:
+- performance
+- databases
+- security
+- operating-systems
+- ai
+- storage
+title: Pulse Design Decision
 ---
+
 ## ~~Web Workers~~
 ~~Goal:~~ 
 ~~fast, reactive UI~~

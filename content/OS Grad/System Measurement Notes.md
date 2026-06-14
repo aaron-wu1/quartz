@@ -1,7 +1,15 @@
 ---
 date: 2025-10-11
-tags: 
+tags:
+- operating-systems
+- performance
+- caching
+- concurrency
+- computer-architecture
+- storage
+title: System Measurement Notes
 ---
+
 ## Overview
 In building an operating system, it is important to be able to determine the performance characteristics of underlying hardware components (CPU, RAM, disk, network, etc.), and to understand how their performance influences or constrains operating system services.
 

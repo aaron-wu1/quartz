@@ -1,7 +1,10 @@
 ---
-title: Two pointers
 date: 2024-01-06
+tags:
+- performance
+title: Two pointers
 ---
+
 ### Introduction
 A common interview technique that utilizes two pointers to traverse through an iterable data structure, usually an array
 

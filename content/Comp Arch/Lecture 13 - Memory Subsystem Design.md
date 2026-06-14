@@ -1,7 +1,12 @@
 ---
 date: 2025-11-13
 tags:
+- caching
+- performance
+- computer-architecture
+title: Lecture 13 - Memory Subsystem Design
 ---
+
 ## Who Cares about Memory Hierarchy?
 
 

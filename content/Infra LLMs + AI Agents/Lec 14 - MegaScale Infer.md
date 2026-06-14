@@ -1,7 +1,15 @@
 ---
 date: 2025-10-29
 tags:
+- distributed-systems
+- performance
+- concurrency
+- computer-architecture
+- ai
+- communication
+title: Lec 14 - MegaScale Infer
 ---
+
 ## Components of Transformer-Based LLMs
 - Each layer contains two modules
 	- Attention

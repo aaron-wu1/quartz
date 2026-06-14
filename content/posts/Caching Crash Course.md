@@ -1,9 +1,10 @@
 ---
-title: Caching Crash Course
 date: 2025-06-08
 tags:
-  - "#Cache"
+- caching
+title: Caching Crash Course
 ---
+
 ## Use Case
 Store data closer to the end destination to reduce delays or store repetitive data to prevent extra work.
 ## Cache Filters

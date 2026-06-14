@@ -1,7 +1,17 @@
 ---
 date: 2025-10-16
 tags:
+- operating-systems
+- distributed-systems
+- concurrency
+- computer-architecture
+- storage
+- performance
+- caching
+title: Machine-Independent Virtual Memory Management for Paged Uniprocessor and Multiprocessor
+  Architectures
 ---
+
 ## Question
 Q: Why does Mach support copy-on-write, and how does it implement it?
 A: To provide consistency, through shadow pages which is the subset of the file of the affected pages that contain changes
@@ -135,4 +145,3 @@ Machine Dependent:
 Multiprocessor issues:
 - lack of consistency when changing virtual mappings
 	- TLB is not kept consistent, no cache consistency
-

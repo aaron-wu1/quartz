@@ -1,7 +1,13 @@
 ---
 date: 2025-10-08
-tags: 
+tags:
+- operating-systems
+- security
+- distributed-systems
+- computer-architecture
+title: Protection and the Control of Information Sharing in Multics
 ---
+
 ## Questions
 - Q: Compare and contrast protected subsystems in Multics with procedures in Hydra.
 	- protected subsystems in Multics and procedures in Hydra both utilize a pointer + right bits. 

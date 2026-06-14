@@ -1,7 +1,14 @@
 ---
 date: 2025-10-15
 tags:
+- computer-architecture
+- concurrency
+- performance
+- caching
+- programing-language
+title: Lec 8 LLM GPUs MegaKernel
 ---
+
 ## Outline 
 - GPU Revisited – Why do we need megakernels?
 	- GPU Programming Model and Execution Model Revisited

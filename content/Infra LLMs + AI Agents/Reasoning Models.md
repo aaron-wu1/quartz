@@ -1,7 +1,12 @@
 ---
 date: 2025-10-30
 tags:
+- performance
+- concurrency
+- ai
+title: Reasoning Models
 ---
+
 Sources:
  [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) and [Demystifying Delays in Reasoning: A Pilot Temporal and Token Analysis of Reasoning Systems](https://cseweb.ucsd.edu/~yiying/2025_NIPS_ERW_Deep_Research_Perf_Study.pdf)
 
@@ -26,4 +31,4 @@ The study found that web search dominates end-to-end request latency and that th
 - "reasoning-first" LLms trained largely with **reinforcement learning** to lengthen and improve chain-of-thought (CoT), plus a variant (R1-Zero) trained with **pure RL from base model**
 	- DeepSeek-R1-Zero did it without supervised fine-tuning (SFT) as a preliminary steps and still has good reasoning capabilities
 	- but had challenges: poor readability and language mixing
-	- DeepSeek-R1 fixes these by incorporating multi-stage training and cold-start data before RL. 
+	- DeepSeek-R1 fixes these by incorporating multi-stage training and cold-start data before RL.

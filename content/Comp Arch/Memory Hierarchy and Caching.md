@@ -1,9 +1,13 @@
 ---
 date: 2025-11-16
 tags:
-  - memory
-  - computer-architecture
+- computer-architecture
+- caching
+- performance
+- concurrency
+title: Memory Hierarchy and Caching
 ---
+
 ## Big Idea
 Programmers would want unlimited amounts of fast memory, the economical solution is to create a *memory hierarchy* that takes advantage of locality.
 

@@ -1,7 +1,13 @@
 ---
 date: 2025-11-11
 tags:
+- performance
+- concurrency
+- computer-architecture
+- ai
+title: METIS Fast Quality-Aware RAG Systems with Configuration Adaptation
 ---
+
 Source: https://arxiv.org/abs/2412.10543
 
 ## Summary

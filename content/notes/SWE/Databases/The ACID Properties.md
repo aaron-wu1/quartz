@@ -1,7 +1,11 @@
 ---
-title: "The Acid Properties"
-date: "2023-12-31"
+date: '2023-12-31'
+tags:
+- databases
+- concurrency
+title: The Acid Properties
 ---
+
 ### Prerequisites:
 - transaction - a single logical unit of work that accesses and possibly modifies the contents of a database.
 - transactions access data using read/write operations

@@ -1,7 +1,10 @@
 ---
 date: 2025-11-19
 tags:
+- ai
+title: CUA
 ---
+
 ## What are Computer-Use Agents (CUA)?
 - AI agents operating on computer
 	- Automated Task completion via GUIs, CLIs or APIs
@@ -22,4 +25,3 @@ tags:
 - Proactive vs reactive
 - Reactive: triggered by user request, executed on demand 
 - Proactive: anticipates user request
-

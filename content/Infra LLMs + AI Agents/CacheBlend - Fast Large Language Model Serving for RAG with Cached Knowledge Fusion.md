@@ -1,7 +1,13 @@
 ---
 date: 2025-11-30
 tags:
+- caching
+- performance
+- ai
+title: CacheBlend - Fast Large Language Model Serving for RAG with Cached Knowledge
+  Fusion
 ---
+
 Source: https://arxiv.org/abs/2405.16444
 
 ## Summary
@@ -14,4 +20,4 @@ CacheBlend combines precomputed KV caches of the retrieved chunks into a single 
 
 2. How does Selective Recomputation decide which tokens to recompute versus which to blend?
 
-Selected Recomputation selects tokens based on which token's KV have high KV deviation. The token's KV deviation is estimated based on a heuristic that predicts how much the token's KV would change if fully recomputed. Tokens with highest estimated influence are recomputed per layer, while low impact ones are blended. 
+Selected Recomputation selects tokens based on which token's KV have high KV deviation. The token's KV deviation is estimated based on a heuristic that predicts how much the token's KV would change if fully recomputed. Tokens with highest estimated influence are recomputed per layer, while low impact ones are blended.

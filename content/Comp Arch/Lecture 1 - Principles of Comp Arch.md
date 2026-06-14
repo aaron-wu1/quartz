@@ -1,7 +1,12 @@
 ---
 date: 2025-09-25
-tags: 
+tags:
+- computer-architecture
+- performance
+- security
+title: Lecture 1 - Principles of Comp Arch
 ---
+
 ## What is Computer Architecture?
 Computer Organization + Instruction Set Design (TODO)
 - Computer Architect (building architect)

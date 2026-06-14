@@ -1,7 +1,15 @@
 ---
 date: 2025-10-21
 tags:
+- distributed-systems
+- operating-systems
+- computer-architecture
+- performance
+- virtualization
+- caching
+title: LegoOS A Disseminated, Distributed OS for Hardware Resource Disaggregation
 ---
+
 source: https://www.usenix.org/conference/osdi18/presentation/shan
 
 ## Abstract
@@ -147,5 +155,3 @@ LegoOS allocates hard-ware resources only *on demand*, when applications actuall
 
 #### Reliability and Failure Handling
 LegoOS maintains a small append-only log at the secondary mComponent and also replicates a vma (virtual memory area) tree there
-
-

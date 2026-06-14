@@ -1,7 +1,12 @@
 ---
 date: 2025-09-28
-tags: 
+tags:
+  - operating-systems
+  - concurrency
+  - security
+title: The Nucleus of a Multiprogramming System by Per Brinch Hansen
 ---
+
 Q: How does synchronization in the RC 4000 system compare with synchronization in the THE system?
 A: It's more durable than THE system. Particularly in the fact that it handles byzantine faults where the processes don't play nicely. It also tackles consensus too between processes which THE system doesn't. THE system only knows if it can or can't proceed with an action and not share state. 
 
@@ -131,14 +136,3 @@ Design Rational:
  - structure: small nucleus, OSes layered on top
  - synchronization via message passing
  - small number of abstractions
-
-
-
-
-
-
-
-
- 
-
-

@@ -1,7 +1,10 @@
 ---
-title: Subarrays Problems
 date: 2024-01-06
+tags:
+- performance
+title: Subarrays Problems
 ---
+
 ### Subarray Sum Problems
 - **Subarray with Given Sum**
 	- The subarray sum problem, tries to find **any** [[contiguous subarray]] that sums up to a particular number

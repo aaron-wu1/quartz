@@ -1,7 +1,13 @@
 ---
 date: 2025-10-02
-tags: 
+tags:
+- distributed-systems
+- performance
+- concurrency
+- ai
+title: PipeDream Generalized Pipeline Parallelism for DNN Training
 ---
+
 Questions:
 1. By making the pipeline more smooth (less pipeline bubbles), what tradeoff does PipeDream make? i.e., in what aspect is GPipe better than PipeDream?
 2. What type of parallelism do you think is most widely adopted in practice? Why?
@@ -40,4 +46,4 @@ Solution:
 	- From GPipe:
 		- run a few minibatches before updating the weights instead of whole epoch
 		- frequent pipeline flushes
-- 
+-

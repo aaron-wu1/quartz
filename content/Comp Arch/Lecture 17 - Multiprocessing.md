@@ -1,7 +1,13 @@
 ---
 date: 2025-12-02
 tags:
+- computer-architecture
+- concurrency
+- caching
+- performance
+title: Lecture 17 - Multiprocessing
 ---
+
 ## Uniprocessor
 What does a uniprocessor lacks:
 - Complexity

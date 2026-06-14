@@ -1,7 +1,10 @@
 ---
-title: "BASE"
-date: "2024-01-02"
+date: '2024-01-02'
+tags:
+- distributed-systems
+title: BASE
 ---
+
 stands for:
 **Basically Available**: 
 - Guarantees the availability of the data.

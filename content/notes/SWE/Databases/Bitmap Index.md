@@ -1,7 +1,11 @@
 ---
-title: Bitmap Index
 date: 2024-01-02
+tags:
+- databases
+- performance
+title: Bitmap Index
 ---
+
 ### Purpose
 - For quick results on tables that are not updated frequently
 - Improve performance of queries that involve complex logical operations, such as AND, OR, and NOT
@@ -14,4 +18,3 @@ date: 2024-01-02
 Bits are used to represent unique values in columns, specifically low [[Cardinality|cardinality]] columns.
 
 ### Implementation
-

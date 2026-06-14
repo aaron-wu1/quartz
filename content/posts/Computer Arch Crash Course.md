@@ -1,15 +1,11 @@
 ---
 date: 2025-09-26
 tags:
-  - computer-architecture
-  - performance
-  - isa
-  - datapath
-  - control
-  - pipelining
-  - hazards
-  - cache
+- computer-architecture
+- performance
+title: Computer Arch Crash Course
 ---
+
 Note: Uses images from [Computer Organization and Design](https://learning.oreilly.com/library/view/computer-organization-and/9781483221182/) By [John L. Hennessy](https://learning.oreilly.com/search/?query=author%3A%22John%20L.%20Hennessy%22&sort=relevance&highlight=true), [David A. Patterson](https://learning.oreilly.com/search/?query=author%3A%22David%20A.%20Patterson%22&sort=relevance&highlight=true)
 ## From high level to machine code
 - High-level language program
@@ -368,4 +364,3 @@ Direct Mapped Cache is 1:1, Associative 1:many
 Given cache config: 32KiB, 64B blocks, 4-way set associative, 32-bit address
 - Cache data size = 32KiB = $32 * 1024B = 2^{15}B$
 - Block size = $64B = 2^6B$
-

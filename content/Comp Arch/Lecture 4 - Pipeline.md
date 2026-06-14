@@ -1,7 +1,11 @@
 ---
 date: 2025-10-07
-tags: 
+tags:
+- computer-architecture
+- performance
+title: Lecture 4 - Pipeline
 ---
+
 ## Background
 Everything in a processor happens in units called "cycles"
 

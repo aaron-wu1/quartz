@@ -1,7 +1,13 @@
 ---
 date: 2025-11-06
 tags:
+- concurrency
+- operating-systems
+- computer-architecture
+- performance
+title: Lecture 14 - Scalability
 ---
+
 ## RCU
 
 ### RCU Goals

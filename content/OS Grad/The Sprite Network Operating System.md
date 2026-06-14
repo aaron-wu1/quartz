@@ -1,7 +1,14 @@
 ---
 date: 2025-10-20
 tags:
+- distributed-systems
+- operating-systems
+- caching
+- concurrency
+- performance
+title: The Sprite Network Operating System
 ---
+
 source: https://cseweb.ucsd.edu/classes/fa25/cse221-a/papers/sprite-ieee-computer88.pdf
 
 ## What is Sprite
@@ -193,4 +200,3 @@ Sprite will provide three overall features:
 	- for sys admins to evolve
 - performance
 	- usage of special purpose RPC protocol for communication between kernels and physical memory as a flexible cache for both programs and files
-

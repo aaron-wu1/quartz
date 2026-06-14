@@ -1,7 +1,12 @@
 ---
 date: 2025-10-14
-tags: 
+tags:
+- computer-architecture
+- performance
+- concurrency
+title: Lecture 6 - Branch Prediction
 ---
+
 ## Looking for Instruction Level Parallelism (ILP)
 - Identify and exploit ILP - instructions that can potentially be executed at the same time
 - Branches are 15-20% of instructions

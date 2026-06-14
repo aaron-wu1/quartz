@@ -1,7 +1,10 @@
 ---
-title: Implicit Flow
 date: 2024-01-05
+tags:
+- security
+title: Implicit Flow
 ---
+
 ### Purpose
 - Used mainly to get user identity
 - Requires web app to have a secret

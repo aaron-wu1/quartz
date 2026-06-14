@@ -1,7 +1,11 @@
 ---
 date: 2025-10-13
-tags: 
+tags:
+- operating-systems
+- concurrency
+title: Monitors An Operating System Structuring Concept
 ---
+
 source:  [Monitors: An Operating System Structuring Concept](https://dl.acm.org/doi/pdf/10.1145/355620.361161)
 ## Summary
 The paper introduces monitors a collection of scheduler for resources. Monitors are a new abstraction boundary for synchronization where to access resources, programmers would need to interact with the monitor to see if was available for their process. This protects the resource and abstracts synchronization away from the programmer to handle.
@@ -38,11 +42,3 @@ Monitors implemented by semaphores
 - Boolean semaphore for "mutex"
 - "urgent" semaphore - count of which signaling processes suspended themselves
 - "condsem" - which a process desiring to wait suspends itself
-
-
-
-
-
-
-
-

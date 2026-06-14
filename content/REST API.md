@@ -1,7 +1,11 @@
 ---
-title: REST API
 date: 2024-01-07
+tags:
+- distributed-systems
+- communication
+title: REST API
 ---
+
 ### Definition
 - REST stands for **RE**presentational **S**tate **T**ransfer. It's an architectural style for providing standards between computer systems on the web.
 - REST compliant systems are called RESTful systems
@@ -26,4 +30,4 @@ date: 2024-01-07
 	- `content-type` header field alerts the client what type of content is being sent (look above at [[MIME Types]])
 	- Response codes (reference link)
 		- https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
-	- 
+	-

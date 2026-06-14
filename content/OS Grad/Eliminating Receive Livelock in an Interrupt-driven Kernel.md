@@ -1,8 +1,12 @@
 ---
 date: 2025-11-13
 tags:
-  - OS
+- operating-systems
+- performance
+- concurrency
+title: Eliminating Receive Livelock in an Interrupt-driven Kernel
 ---
+
 ## Background
 The key tradeoff discussed in network stacks that this paper discusses is:
 
@@ -70,8 +74,3 @@ Hence, the paper proposes a hybrid design:
 
 ### Avoid Preemption
 Making higher-level packet processing non-preemptable
-
-
-
-
-

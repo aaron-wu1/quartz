@@ -1,7 +1,13 @@
 ---
 date: 2025-10-22
 tags:
+- performance
+- concurrency
+- distributed-systems
+- ai
+title: Lec 11 Long Context Serving
 ---
+
 ## Background
 **Data Parallelism**
 ![[Screenshot 2025-10-22 at 9.06.42 AM.png]]
@@ -16,4 +22,3 @@ Within a single request parallelizing the context
 ![[Screenshot 2025-10-22 at 9.13.23 AM.png]]
 ## Multi-headed Attention
 ![[Screenshot 2025-10-22 at 9.12.02 AM.png]]
-

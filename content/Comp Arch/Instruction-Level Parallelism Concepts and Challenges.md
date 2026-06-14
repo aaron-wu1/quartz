@@ -1,7 +1,11 @@
 ---
 date: 2025-10-12
-tags: 
+tags:
+- computer-architecture
+- performance
+title: Instruction-Level Parallelism Concepts and Challenges
 ---
+
 ## Instruction-level parallelism (ILP)
 Usage of pipelining to over the execution of instructions and improve performance
 **Two largely separable approaches to exploit ILP**
@@ -29,4 +33,3 @@ A name dependence occurs when two instructions use the same register or memory l
 Two types:
 - *antidependence* between instruction i and instruction j occurs when instruction j writes a register or memory location that instruction i reads. The original ordering must be preserved to ensure that i reads the correct value.
 - *output dependence* occurs when instruction i and instruction j write the same register or memory location. The ordering between the instructions must be preserved to ensure that the value finally written corresponds to instruction j.
-

@@ -1,8 +1,18 @@
 ---
 date: 2025-09-26
 tags:
-  - "#Gen-AI"
+- distributed-systems
+- operating-systems
+- databases
+- performance
+- security
+- caching
+- ai
+- storage
+- virtualization
+title: Lec 1 - LLMs - Gen AI
 ---
+
 ## What is an LLM?
 - language models
 	- text to text generation

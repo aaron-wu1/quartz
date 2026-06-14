@@ -1,7 +1,14 @@
 ---
 date: 2025-11-26
 tags:
+- computer-architecture
+- concurrency
+- caching
+- performance
+- operating-systems
+title: Thread-level Parallelism and Multiprocessors
 ---
+
 ## Background
 - MIMD - multiple instructions, multiple data
 - TLP - thread-level parallelism

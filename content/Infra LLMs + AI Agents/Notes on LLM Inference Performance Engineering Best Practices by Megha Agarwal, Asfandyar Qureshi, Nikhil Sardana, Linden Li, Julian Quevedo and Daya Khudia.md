@@ -1,11 +1,16 @@
 ---
 date: 2025-09-30
 tags:
-  - summary
-  - "#operating-systems"
-  - "#file-system"
-  - "#artificial-intelligence"
+- operating-systems
+- performance
+- computer-architecture
+- distributed-systems
+- ai
+- concurrency
+title: Notes on LLM Inference Performance Engineering Best Practices by Megha Agarwal,
+  Asfandyar Qureshi, Nikhil Sardana, Linden Li, Julian Quevedo and Daya Khudia
 ---
+
 Source:
 https://www.databricks.com/blog/llm-inference-performance-engineering-best-practices
 
@@ -101,5 +106,3 @@ Still in works on evaluation...
 - Explore In depth optimizations
 - Hardware Configurations
 - Data Driven Decisions: measure end-to-end perf
-
-

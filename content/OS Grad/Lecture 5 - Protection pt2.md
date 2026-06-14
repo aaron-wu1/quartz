@@ -1,7 +1,16 @@
 ---
 date: 2025-10-09
-tags: 
+tags:
+- operating-systems
+- security
+- storage
+- performance
+- caching
+- computer-architecture
+- programing-language
+title: Lecture 5 - Protection pt2
 ---
+
 ## Multics
 ### Goals
 - uniform protection model

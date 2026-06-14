@@ -1,15 +1,12 @@
 ---
-title: OS Crash Course
 date: 2025-06-08
 tags:
-  - operating-systems
-  - processes
-  - scheduling
-  - memory
-  - virtualization
-  - file-systems
-  - ipc
-  - security
+- operating-systems
+- virtualization
+- security
+- concurrency
+- performance
+title: OS Crash Course
 ---
 
 All the most important content IMO
@@ -225,12 +222,3 @@ Two ways:
 
 ### Hypervisor, virtualization
 *nice to have*
-
-
-
-
-
-
-
-
-

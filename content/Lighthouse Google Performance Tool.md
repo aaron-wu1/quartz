@@ -1,7 +1,10 @@
 ---
-title: Lighthouse Google Performance Tool
 date: 2024-01-15
+tags:
+- performance
+title: Lighthouse Google Performance Tool
 ---
+
 ### Metrics
 - **First contentful paint**
 	- measures the time it takes the browser to begin visibly rendering the webpage

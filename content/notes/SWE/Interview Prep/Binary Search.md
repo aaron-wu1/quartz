@@ -1,7 +1,10 @@
 ---
-title: Binary Search
 date: 2024-01-04
+tags:
+- performance
+title: Binary Search
 ---
+
 ### Purpose
 Search algorithm that narrows down the search range by half each time.
 
@@ -39,4 +42,3 @@ def binary_search(arr, target):
 
 ### Runtime
 O(log(n))
-

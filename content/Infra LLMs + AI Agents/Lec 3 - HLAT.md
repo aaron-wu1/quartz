@@ -1,7 +1,15 @@
 ---
 date: 2025-10-06
-tags: 
+tags:
+- distributed-systems
+- performance
+- concurrency
+- caching
+- storage
+- ai
+title: Lec 3 - HLAT
 ---
+
 ## Background
 - LLM is a major breakthrough for AGI, and pretraining is crucial
 - LLMs trained on different chips

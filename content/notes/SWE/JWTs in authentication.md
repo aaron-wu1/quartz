@@ -1,7 +1,10 @@
 ---
-title: JWTs in authentication
 date: 2024-01-04
+tags:
+- security
+title: JWTs in authentication
 ---
+
 ### Purpose
 Storing user data or user authentication during sessions on the client side. Needs a hashing algorithm to make sure data somewhat secure.
 

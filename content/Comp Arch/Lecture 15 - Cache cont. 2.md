@@ -1,7 +1,12 @@
 ---
 date: 2025-11-20
 tags:
+- caching
+- performance
+- computer-architecture
+title: Lecture 15 - Cache cont. 2
 ---
+
 ## Software/Compiler Optimization
 **Big idea**
 - Instructions cache

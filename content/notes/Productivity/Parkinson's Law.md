@@ -1,9 +1,10 @@
 ---
-title: "Parkinson's Law"
-date: "2023-12-30"
+date: '2023-12-30'
 tags:
-- productivity
+- personal-growth
+title: Parkinson's Law
 ---
+
 Parkinson’s Law is the idea that your work will expand to fill the time allotted for its completion. 
 
 ![[Inline illustration] Why does work expand to fill the time available? (Infographic)](https://assets.asana.biz/transform/ed057032-38a1-4f6d-ba07-04818b170a51/inline-productivity-parkinsons-law-2-2x?io=transform:fill,width:1680&format=webp)

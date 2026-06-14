@@ -1,7 +1,11 @@
 ---
 date: 2025-05-29
 tags:
+- distributed-systems
+- performance
+title: Load Balancing Algorithms
 ---
+
 ## 1. Round Robin
 Distributes requests in a cyclic order
 ### Pros

@@ -1,7 +1,13 @@
 ---
 date: 2025-12-04
 tags:
+- security
+- computer-architecture
+- caching
+- performance
+title: Lecture 18 - Power and Security
 ---
+
 ## Power-Aware Architecture
 
 ### Background

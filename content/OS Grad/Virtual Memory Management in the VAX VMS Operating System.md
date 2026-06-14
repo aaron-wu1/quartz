@@ -1,7 +1,13 @@
 ---
 date: 2025-10-15
 tags:
+- operating-systems
+- caching
+- computer-architecture
+- performance
+title: Virtual Memory Management in the VAX VMS Operating System
 ---
+
 ## Question
 - "VAX/VMS, then, is a collection of procedures that exist in the address space of each process." Explain in your own words what this statement means.
 	- In VAX/VMS, procedures are isolated per process

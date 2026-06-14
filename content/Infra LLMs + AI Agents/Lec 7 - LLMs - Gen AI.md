@@ -1,7 +1,12 @@
 ---
 date: 2025-10-13
-tags: 
+tags:
+- performance
+- computer-architecture
+- ai
+title: Lec 7 - LLMs - Gen AI
 ---
+
 ## LLM Inference
 ![[Screenshot 2025-10-13 at 9.16.18 AM.png]]
 LLMs generate the best next token

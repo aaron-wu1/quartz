@@ -1,7 +1,10 @@
 ---
-title: Angular coding and naming conventions
 date: 2024-01-04
+tags:
+- programing-language
+title: Angular coding and naming conventions
 ---
+
 # Structure
 ### Module
 - **Component**
@@ -17,6 +20,3 @@ date: 2024-01-04
 
 ### Source:
 https://angular.io/guide/styleguide
-
-
-

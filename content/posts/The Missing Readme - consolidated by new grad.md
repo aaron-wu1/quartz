@@ -1,21 +1,10 @@
 ---
 date: 2025-06-16
-title: The Missing Readme - consolidated by new grad
 tags:
-  - new-grad
-  - career-growth
-  - communication
-  - leadership
-  - documentation
-  - technical-design
-  - architecture
-  - dependencies
-  - testing
-  - code-review
-  - delivery
-  - on-call
-  - agile
-  - managers
+- career
+- communication
+- personal-growth
+title: The Missing Readme - consolidated by new grad
 ---
 
 ## Preface
@@ -884,19 +873,3 @@ Processes to maintain relationship with manager:
 		KEY RESULT 99th-percentile latency (P99) < 20ms
 		KEY RESULT 5XX error rate below 0.01 percent of responses
 	```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

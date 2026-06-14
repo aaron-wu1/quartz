@@ -1,7 +1,10 @@
 ---
-title: fragments
 date: 2024-01-04
+tags:
+- programing-language
+title: fragments
 ---
+
 Fragments lets you group things in JSX without leaving any trace in the browser HTML tree
 ```JSX
 return (

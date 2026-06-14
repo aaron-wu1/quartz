@@ -1,7 +1,12 @@
 ---
-title: "Bloom Filters"
-date: "2025-09-25"
+date: '2025-09-25'
+tags:
+- caching
+- databases
+- performance
+title: Bloom Filters
 ---
+
 Space efficient data structure that quickly checks if given element **e** is **not in** the dataset. 
 
 ## How?

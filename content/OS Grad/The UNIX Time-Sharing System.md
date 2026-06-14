@@ -1,13 +1,14 @@
 ---
 date: 2025-10-02
 tags:
-  - summary
-  - "#operating-systems"
-  - "#file-system"
-  - "#unix"
-  - "#system-design"
-  - "#file-system-implementations"
+- operating-systems
+- storage
+- security
+- concurrency
+- computer-architecture
+title: The UNIX Time-Sharing System
 ---
+
 source: https://dl.acm.org/doi/pdf/10.1145/361011.361061
 
 Q: What aspects of Unix as described in the 1974 paper do not survive today, or have been considerably changed?
@@ -237,4 +238,3 @@ Design:
 - severe size constrains had to make it small
 - self maintenance, modularity, debugging, separation of concerns
 	- no control blocks (eg. complicated structures that are partially maintained by other system calls)
-

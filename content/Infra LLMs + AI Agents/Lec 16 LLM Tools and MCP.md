@@ -1,7 +1,14 @@
 ---
 date: 2025-11-03
 tags:
+- performance
+- concurrency
+- security
+- distributed-systems
+- ai
+title: Lec 16 LLM Tools and MCP
 ---
+
 ## "Brain and Limbs" Analogy
 - LLM - the brain
 	- complex reasoning

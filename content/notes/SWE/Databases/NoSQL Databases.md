@@ -1,7 +1,11 @@
 ---
-title: "NoSQL Databases"
-date: "2024-01-01"
+date: '2024-01-01'
+tags:
+- databases
+- distributed-systems
+title: NoSQL Databases
 ---
+
 ### Definition
 Non-tabular databases that store data differently than relational tables, typically any non-relational database
 

@@ -1,7 +1,14 @@
 ---
 date: 2025-10-22
 tags:
+- operating-systems
+- computer-architecture
+- concurrency
+- performance
+- communication
+title: The Performance of u-Kernel-Based Systems
 ---
+
 ## Question
 Q: Compare and contrast the L4 microkernel with Nucleus and Hydra in terms of their goals to provide a basis on which higher-level OS functionality can be implemented.
 
@@ -16,5 +23,4 @@ Based on two basic concepts:
 - Address space
 	- L4 supports "recursive construction" of address spaces
 		- In other words, an owner of an address space can grant a subset of its pages to another address space as long as the recipient agrees
-*Pagers* - 
-
+*Pagers* -

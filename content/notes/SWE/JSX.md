@@ -1,7 +1,10 @@
 ---
-title: JSX
 date: 2024-01-04
+tags:
+- programing-language
+title: JSX
 ---
+
 ### Defintion
 JSX is a syntax extension for JavaScript that allows you to write HTML-like markup inside a JavaScript file.
 

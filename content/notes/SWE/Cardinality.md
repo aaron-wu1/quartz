@@ -1,7 +1,10 @@
 ---
-title: Cardinality in DBMS
 date: 2024-01-04
+tags:
+- databases
+title: Cardinality in DBMS
 ---
+
 ### Definition
 \# of times an entity of a entity set participates in a relationship set.
 

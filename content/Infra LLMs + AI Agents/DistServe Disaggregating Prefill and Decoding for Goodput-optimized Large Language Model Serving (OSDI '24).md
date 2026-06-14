@@ -1,7 +1,16 @@
 ---
 date: 2025-10-19
 tags:
+- distributed-systems
+- caching
+- performance
+- concurrency
+- computer-architecture
+- ai
+title: DistServe Disaggregating Prefill and Decoding for Goodput-optimized Large Language
+  Model Serving (OSDI '24)
 ---
+
 source: https://arxiv.org/pdf/2401.09670
 
 ## Summary

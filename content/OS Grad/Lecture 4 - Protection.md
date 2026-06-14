@@ -1,7 +1,11 @@
 ---
 date: 2025-10-07
-tags: 
+tags:
+- operating-systems
+- security
+title: Lecture 4 - Protection
 ---
+
 ## HYDRA
 Draw parallels to object oriented languages
 - we don't take the HYDRA approach to OS anymore
@@ -133,4 +137,3 @@ protection enforces rules , security = policies
 		- implementation
 		- proofs
 		- discussion section
-

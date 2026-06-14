@@ -1,7 +1,11 @@
 ---
 date: 2025-10-13
-tags: 
+tags:
+- concurrency
+- programing-language
+title: Experience with Processes and Monitors in Mesa
 ---
+
 source: [Experience with Processes and Monitors in Mesa](https://dl.acm.org/doi/pdf/10.1145/358818.358824)
 
 ## Summary

@@ -1,16 +1,11 @@
 ---
 date: 2025-09-29
 tags:
-  - "#summary"
-  - "#operating-systems"
-  - "#artificial-intelligence"
-  - "#machine-learning"
-  - "#natural-language-processing"
-  - "#ai-agents"
-  - "#intelligence"
-  - "#autonomy"
-  - "#LLM"
+- operating-systems
+- ai
+title: What is an AI agent
 ---
+
 ## Definition
 AI agents are software systems that use AI to pursue goals and complete tasks on behalf of users. They show reasoning, planning, and memory and have a level of autonomy to make decisions, learn, and adapt
 

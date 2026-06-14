@@ -1,7 +1,10 @@
 ---
-title: OAuth
 date: 2024-01-04
+tags:
+- security
+title: OAuth
 ---
+
 ### Definition
 Splits the authentication service into 4 roles:
 - Resource owner (the user)

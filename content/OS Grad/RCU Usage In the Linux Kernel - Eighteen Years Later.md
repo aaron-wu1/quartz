@@ -1,7 +1,12 @@
 ---
 date: 2025-11-29
 tags:
+- concurrency
+- operating-systems
+- performance
+title: RCU Usage In the Linux Kernel - Eighteen Years Later
 ---
+
 ## Issues that RCU solves
 - Concurrent reads even on updates
 - Low overhead in both memory and execution time

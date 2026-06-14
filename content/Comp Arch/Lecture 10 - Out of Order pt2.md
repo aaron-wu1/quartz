@@ -1,7 +1,10 @@
 ---
 date: 2025-10-28
 tags:
+- computer-architecture
+title: Lecture 10 - Out of Order pt2
 ---
+
 ## MIPS R10k
 ### Driving Factors
 Avoiding the latency from a cache miss
@@ -40,5 +43,3 @@ Avoiding the latency from a cache miss
 	- flush branch dependent instructions from active list
 	- restore register from free list (fixed since circular queue)
 - MIPS novelty: out of order in commodity processor, tomosulo in specialized machine
-
-

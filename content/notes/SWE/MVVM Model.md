@@ -1,7 +1,10 @@
 ---
-title: MVVM Model
 date: 2024-01-03
+tags:
+- computer-architecture
+title: MVVM Model
 ---
+
 ### Definition
 Similar to the [[MVC model]] but the controller is replaced with ViewModel or VM.
 

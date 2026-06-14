@@ -1,7 +1,14 @@
 ---
 date: 2025-10-27
 tags:
+- virtualization
+- operating-systems
+- computer-architecture
+- concurrency
+- security
+title: The Origin of the VM 370 Time-Sharing System
 ---
+
 source: https://cseweb.ucsd.edu/classes/fa25/cse221-a/papers/vm370.pdf
 ## Question 
 What was VM/370's motivation for virtualizing the hardware?
@@ -56,8 +63,3 @@ General multiprogramming system that uses virtual machines to organize independe
 ## Conversational Monitor System 
 Disk-file-oriented OS to support personal use of a dedicated computer
 - *Guest operating system* to run in side VM
-
-
-
-
-

@@ -1,7 +1,16 @@
 ---
 date: 2025-10-08
-tags: 
+tags:
+- databases
+- performance
+- distributed-systems
+- storage
+- caching
+- ai
+- concurrency
+title: RAG Crash Course
 ---
+
 Sources: 
 - [METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation](https://arxiv.org/abs/2412.10543)
 - [A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge](https://arxiv.org/abs/2310.11703)

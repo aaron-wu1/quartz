@@ -1,7 +1,12 @@
 ---
-title: Database Design Best Practices
 date: 2024-01-04
+tags:
+- databases
+- performance
+- distributed-systems
+title: Database Design Best Practices
 ---
+
 ### Consider
 - Minimizing redundancy
 - Protecting accuracy
@@ -43,4 +48,3 @@ date: 2024-01-04
 	- **Minimize unnecessary maintenance**
 	- **Use visualization**: create a diagram and test it. 
 	- **Test your database**: eg. run queries and document times
-

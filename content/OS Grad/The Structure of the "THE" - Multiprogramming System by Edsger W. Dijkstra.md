@@ -1,7 +1,14 @@
 ---
 date: 2025-09-26
-tags: []
+tags:
+- operating-systems
+- concurrency
+- performance
+- computer-architecture
+- storage
+title: The Structure of the "THE" - Multiprogramming System by Edsger W. Dijkstra
 ---
+
 Q: Dijkstra explicitly states their goals for the THE operating system. How do these goals compare to, say, Microsoft's goals for the Windows operating system? Why do we no longer build operating systems with the same goals as THE?
 
 A: "THE" os focuses only on a small part of what now modern operating systems need to consider. There more business requirements. Also HW performance has increase multiple folds, hence less on the focus of optimization of managing resources more on meeting user needs at least for the general user.
@@ -164,4 +171,3 @@ Dijkstra is contrasting sequential process with electrical circuits?
 - abstraction: sequential processes
 - semaphores for synchronization
 - emphasis on correctness
- 

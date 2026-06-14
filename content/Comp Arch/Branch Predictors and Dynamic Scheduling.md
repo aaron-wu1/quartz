@@ -1,7 +1,10 @@
 ---
 date: 2025-11-01
 tags:
+- computer-architecture
+title: Branch Predictors and Dynamic Scheduling
 ---
+
 ## Types
 ### Correlating Branch Predictors
 **Correlating predictors / two-level predictors** - branch predictors that use the behavior of other branches to make a prediction

@@ -1,7 +1,10 @@
 ---
-title: Focusing Your Unconscious Mind
 date: 2024-01-03
+tags:
+- personal-growth
+title: Focusing Your Unconscious Mind
 ---
+
 ### Big Idea
 Learning hard concepts using intuition.
 

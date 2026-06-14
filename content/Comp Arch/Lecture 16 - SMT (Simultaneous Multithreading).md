@@ -1,7 +1,12 @@
 ---
 date: 2025-11-25
 tags:
+- computer-architecture
+- performance
+- concurrency
+title: Lecture 16 - SMT (Simultaneous Multithreading)
 ---
+
 ## Motivation
  - Modern processors fail to utilize execution resources well
  - Start to see wide superscalars that weren't utilized well
@@ -67,5 +72,3 @@ Prediction - count of instructions from the front of machines, as their instruct
 
 SMT 
 - dip on single thread performance because of a longer pipeline
-
-

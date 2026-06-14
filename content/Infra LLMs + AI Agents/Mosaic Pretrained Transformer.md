@@ -1,10 +1,11 @@
 ---
 date: 2025-09-30
 tags:
-  - "#machine-learning"
-  - "#artificial-intelligence"
-  - "#open-source-transformer"
+- performance
+- ai
+title: Mosaic Pretrained Transformer
 ---
+
 Source:
 https://www.databricks.com/blog/mpt-7b
 

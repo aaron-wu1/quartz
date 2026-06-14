@@ -1,7 +1,14 @@
 ---
 date: 2025-11-03
 tags:
+- operating-systems
+- performance
+- concurrency
+- computer-architecture
+- caching
+title: The Linux Scheduler a Decade of Wasted Cores
 ---
+
 source: https://dl.acm.org/doi/abs/10.1145/2901318.2901326
 
 Source: https://dl.acm.org/doi/pdf/10.1145/2901318.2901326

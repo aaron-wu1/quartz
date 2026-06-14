@@ -1,7 +1,13 @@
 ---
-title: "Relational Databases"
-date: "2023-12-31"
+date: '2023-12-31'
+tags:
+- databases
+- distributed-systems
+- performance
+- concurrency
+title: Relational Databases
 ---
+
 ### Definiton
 Data is organized into tables.
 
@@ -60,8 +66,3 @@ SQL is used to query from relational databases
 
 Sources:
 - https://interviewnoodle.com/system-design-part-5-database-ed56d7d55ca3
-
-
-
-
-

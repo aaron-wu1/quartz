@@ -1,6 +1,11 @@
 ---
-title: "Authentication System Design Notes"
 date: 2024-01-04
+tags:
+- security
+- databases
+- performance
+- distributed-systems
+title: Authentication System Design Notes
 ---
 
 Key Features:
@@ -64,6 +69,3 @@ The signature is use the algorithm to verify the data.
 ![[Screenshot 2023-12-27 at 1.29.48 PM.png]]
 Considerations:
 - Uses JWT to verify identity, doesn't have a central state of truth as with the sessions table.
-
-
-

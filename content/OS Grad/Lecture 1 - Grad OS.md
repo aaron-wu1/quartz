@@ -1,7 +1,12 @@
 ---
 date: 2025-09-25
-tags: 
+tags:
+- operating-systems
+- performance
+- security
+title: Lecture 1 - Grad OS
 ---
+
 ## Why Grad OS?
 - Broaden horizons of designing OS
 - learn not just what but **why**

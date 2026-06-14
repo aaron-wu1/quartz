@@ -1,7 +1,12 @@
 ---
 date: 2025-11-18
 tags:
+- computer-architecture
+- caching
+- performance
+title: Lecture 14 - Caches Cont.
 ---
+
 ## Cache Updates
 ### Writes updates
 - *Write through:* The information is written to both the block in the cache and to the block in the lower-level memory. 

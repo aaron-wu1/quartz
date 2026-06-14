@@ -1,6 +1,9 @@
 ---
-title: "Technical Diagrams"
 date: 2024-01-04
+tags:
+- programing-language
+- communication
+title: Technical Diagrams
 ---
 
 # UML Diagrams
@@ -66,4 +69,3 @@ Shows interactions between classes and system
 Sources:
 - https://betterprogramming.pub/a-beginners-guide-to-drawing-technical-diagrams-fb0c97fdbc5e
 - https://creately.com/blog/diagrams/uml-diagram-types-examples/
-

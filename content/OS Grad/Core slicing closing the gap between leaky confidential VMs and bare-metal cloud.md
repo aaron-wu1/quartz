@@ -1,7 +1,15 @@
 ---
 date: 2025-10-30
 tags:
+- virtualization
+- security
+- computer-architecture
+- performance
+- caching
+title: Core slicing closing the gap between leaky confidential VMs and bare-metal
+  cloud
 ---
+
 ## Question
  How does core slicing differ from traditional virtualization (e.g., in Xen)?
 ## Abstract
@@ -109,4 +117,4 @@ Introduce *lockable filter registers* that restrict the accessible resources by 
 	- Is able to trigger secure resets of guest cores
 	- Shares some memory, not necessarily cache-coherently, with those cores.
 - Doesn't allocate resources, but checks the correctness of resource assignments provided by the unprivileged slice manager
-- 
+-

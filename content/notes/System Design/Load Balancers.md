@@ -1,7 +1,12 @@
 ---
 date: 2025-05-29
 tags:
+- distributed-systems
+- security
+- performance
+title: Load Balancers
 ---
+
 ## Purpose
 To distribute requests and traffic evenly across multiple servers
 

@@ -1,7 +1,10 @@
 ---
-title: Tokens
 date: 2024-01-05
+tags:
+- security
+title: Tokens
 ---
+
 ### Definition
 Pieces of data that carry enough information to id users
 
@@ -31,4 +34,3 @@ Pieces of data that carry enough information to id users
 	- use the resource owner password flow
 
 ### Refresh Token Rotation
-

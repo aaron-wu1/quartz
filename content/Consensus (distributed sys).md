@@ -1,7 +1,10 @@
 ---
-title: "Consensus (distributed sys)"
-date: "2025-09-25"
+date: '2025-09-25'
+tags:
+- distributed-systems
+title: Consensus (distributed sys)
 ---
+
 ## Definition
 Fulfills two conditions:
 1. agreement on shared state

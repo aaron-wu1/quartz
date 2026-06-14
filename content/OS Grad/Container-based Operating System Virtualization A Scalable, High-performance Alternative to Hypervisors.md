@@ -1,7 +1,15 @@
 ---
 date: 2025-10-29
 tags:
+- virtualization
+- security
+- performance
+- operating-systems
+- storage
+title: Container-based Operating System Virtualization A Scalable, High-performance
+  Alternative to Hypervisors
 ---
+
 ## Question
 Q: What are the key tradeoffs between hardware virtualization and OS-level virtualization?
 - Hardware virtualization - higher performance, but less flexibility
@@ -114,6 +122,3 @@ Options:
 	- **issue** - malicious VMs can (un)intentially destroy or modify such shared files
 		- Approach by VServer is to mark the files as copy-on-write
 		- When VM attempts to mutate a hard linked file with a CoW attribute set, VServer will give the VM a private copy of the file
-
-
-

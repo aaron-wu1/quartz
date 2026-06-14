@@ -1,15 +1,13 @@
 ---
-title: Map Reduce Crash Course
 date: 2025-01-19
 tags:
-  - "#mapreduce"
-  - distributed-systems
-  - parallel-computing
-  - scalability
-  - fault-tolerance
-  - concurrency
-  - big-data
+- distributed-systems
+- concurrency
+- performance
+- storage
+title: Map Reduce Crash Course
 ---
+
 ## Intro
 "MapReduce is a programming model and an associated implementation for processing and generating large data sets. 
 

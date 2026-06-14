@@ -1,7 +1,14 @@
 ---
 date: 2025-10-08
-tags: 
+tags:
+- operating-systems
+- programing-language
+- security
+- concurrency
+- computer-architecture
+title: Singularity Rethinking the Software Stack
 ---
+
 ## Goals
 - Re-examine the design decisions and shortcomings of existing systems and software stacks
 	- wide-spread security vulnerabilities

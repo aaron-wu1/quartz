@@ -1,7 +1,11 @@
 ---
-title: React vs Angular
 date: 2024-01-03
+tags:
+- programing-language
+- performance
+title: React vs Angular
 ---
+
 ### [[React]]
 - [[JSX]]
 - Flexibility in modeling

@@ -1,7 +1,10 @@
 ---
-title: SQL Multiple Joins
 date: 2024-01-03
+tags:
+- databases
+title: SQL Multiple Joins
 ---
+
 Use parenthesis for multiple joins
 
 Example:

@@ -1,7 +1,12 @@
 ---
 date: 2025-11-30
 tags:
+- operating-systems
+- performance
+- concurrency
+title: The Linux Scheduler - a Decade of Wasted Cores
 ---
+
 Source: https://dl.acm.org/doi/pdf/10.1145/2901318.2901326
 
 ## Background
@@ -33,6 +38,3 @@ CFS picks a target latency or the time window in which every runnable task shoul
 - Scheduler picks smallest vruntime
 - Time slice is determined by **target latency / runnable tasks**
 - Result is smooth fairness rather than quantum-based scheduling
-
-
-

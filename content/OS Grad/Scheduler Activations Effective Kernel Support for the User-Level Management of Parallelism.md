@@ -1,9 +1,13 @@
 ---
 date: 2025-11-02
 tags:
-  - operating-systems
-  - scheduling
+- operating-systems
+- concurrency
+- performance
+title: Scheduler Activations Effective Kernel Support for the User-Level Management
+  of Parallelism
 ---
+
 source: https://dl.acm.org/doi/pdf/10.1145/146941.146944
 
 ## Question
@@ -120,5 +124,3 @@ Interface:
 	- Allocate more processors to this address space
 - `this processor is idle()`
 	- preempt this processor
-
-

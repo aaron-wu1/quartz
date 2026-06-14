@@ -1,12 +1,14 @@
 ---
 date: 2025-09-29
 tags:
-  - "#operating-systems"
-  - "#file-system"
-  - "#artificial-intelligence"
-  - "#machine-learning"
-  - ai-agents
+- operating-systems
+- distributed-systems
+- ai
+- communication
+- concurrency
+title: Lec 2 - AI Agents
 ---
+
 ## AI Agents
 
 TODO

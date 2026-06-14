@@ -1,7 +1,12 @@
 ---
 date: 2025-11-09
 tags:
+- performance
+- computer-architecture
+- ai
+title: Cognify Supercharging Gen-AI Workflows With Hierarchical Autotuning (KDD '25)
 ---
+
 source: https://arxiv.org/abs/2502.08056
 ## Summary
 

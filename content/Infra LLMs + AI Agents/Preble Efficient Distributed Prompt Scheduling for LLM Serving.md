@@ -1,7 +1,14 @@
 ---
 date: 2025-10-15
 tags:
+- distributed-systems
+- caching
+- performance
+- ai
+- concurrency
+title: Preble Efficient Distributed Prompt Scheduling for LLM Serving
 ---
+
 ## Summary
 
 The paper presents Preble, a distributed LLM serving platform that targets and optimizes for prompt sharing since prompts are typically repetitive over a large amount of requests. It introduces the E2 algorithm that co-designs model computation load-balancing and prefix-cache sharing. E2 allows requests to exploit (reuse) computed prompt prefixes on the same GPU, but also gives chances for requests with shared prefixes to explore other GPUs to reduce load imbalances.

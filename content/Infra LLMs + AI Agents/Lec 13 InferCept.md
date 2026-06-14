@@ -1,7 +1,13 @@
 ---
 date: 2025-10-27
 tags:
+- computer-architecture
+- performance
+- concurrency
+- ai
+title: Lec 13 InferCept
 ---
+
 ## How are LLM interceptions handled now?
 - SoTA LLM serving systems tread LLM interceptions as end of requests
 	- Discard all KV context

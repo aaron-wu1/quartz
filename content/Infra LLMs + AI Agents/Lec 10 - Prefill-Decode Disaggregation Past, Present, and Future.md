@@ -1,7 +1,13 @@
 ---
 date: 2025-10-20
 tags:
+- distributed-systems
+- concurrency
+- performance
+- ai
+title: Lec 10 - Prefill-Decode Disaggregation Past, Present, and Future
 ---
+
 ## Batching Prefill and Decode Together Cause Interference![[Screenshot 2025-10-20 at 9.15.26 AM.png]]
 ![[Screenshot 2025-10-20 at 9.16.37 AM.png]]
 

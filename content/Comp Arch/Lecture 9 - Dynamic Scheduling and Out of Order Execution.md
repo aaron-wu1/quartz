@@ -1,7 +1,11 @@
 ---
 date: 2025-10-26
 tags:
+- computer-architecture
+- performance
+title: Lecture 9 - Dynamic Scheduling and Out of Order Execution
 ---
+
 ## Dynamic Scheduling
 
 ![[Screenshot 2025-10-21 at 2.55.08 PM.png]]
@@ -114,7 +118,4 @@ Need HW buffer for results of uncommitted instructions: *reorder buffer*
 - the **re-order buffer** and **in-order commit** allow us to flush the speculative instructions from the machine when a misprediction is discovered
 - ROB is another possible source of operands
 - ROB can provide *precise exceptions* in an out-of-order machine
-- ROB allows us to *ignore exceptions* on speculative code 
-
-
-
+- ROB allows us to *ignore exceptions* on speculative code

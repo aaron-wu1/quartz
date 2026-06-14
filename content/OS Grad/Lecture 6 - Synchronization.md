@@ -1,10 +1,12 @@
 ---
 date: 2025-10-14
 tags:
-  - "#system-design"
-  - "#operating-systems"
-  - "#concurrency"
+- operating-systems
+- concurrency
+- programing-language
+title: Lecture 6 - Synchronization
 ---
+
 ## Monitors
 Process ~ thread
 
@@ -153,6 +155,3 @@ C++, Rust, Python
 - Hoare vs Mesa Semantics
 - Practical Challenges
 	- aborts, nesting etc.
-
-
-

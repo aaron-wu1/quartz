@@ -1,7 +1,14 @@
 ---
 date: 2025-11-18
 tags:
+- performance
+- concurrency
+- operating-systems
+- ai
+title: OSWorld-Human - Benchmarking the Efficiency of Computer-Use Agents (CUA Workshop
+  '25)
 ---
+
 source: https://arxiv.org/abs/2506.16042
 ## Summary
 This paper presents a study on performance of computer-use agents on OSWorld. The authors created a new benchmark OSWorld-Human that is derived from OSWorld dataset. It contains manually constructed, optimal human trajectories for tasks, establishing the gold standard. They found that even the 16 leading CUAs were inefficient, with the top agents performing 1.4 to 2.7 longer trajectories than the human benchmark.
@@ -14,4 +21,3 @@ The fundamental limitation of using human efficiency as the "gold standard" is t
 2. Can you think of a way to reduce the end-to-end CUA latency?
 
 A way to reduce end-to-end CUA latency is potentially adding predictors for common actions. Say in their task of changing their document to double-space, a predictor could be a map with a keyword match for "double-spaced" and context of steps to navigate to the line spacing UI button. They can save the LLM from reasoning how to get to the double-spaced UI button.
-

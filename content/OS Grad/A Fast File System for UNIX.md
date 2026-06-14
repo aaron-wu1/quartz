@@ -1,8 +1,13 @@
 ---
 date: 2025-11-19
 tags:
-  - OS
+- operating-systems
+- storage
+- performance
+- concurrency
+title: A Fast File System for UNIX
 ---
+
 source: https://dl.acm.org/doi/pdf/10.1145/989.990
 
 ## Introduction

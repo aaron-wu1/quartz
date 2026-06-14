@@ -1,7 +1,11 @@
 ---
 date: 2025-10-21
 tags:
+- computer-architecture
+- performance
+title: Lecture 8 - Instruction Level Parallelism (ILP) cont.
 ---
+
 ## What is ILP
 The characteristic of a program that certain instructions are *independent* and can potentially be *executed in parallel*
 - Any mechanism that creates, identifies, or exploits the independence of instructions, allowing them to be executed in parallel
@@ -127,6 +131,3 @@ First machine CDC 6600 scoreboard
 		- RS's (FU's), register file, etc responsible for *collecting own data off* CDB
 	- Load and Store queues treated as FUs as well
 #### TODO Reservation Station Components, review
-
-
-

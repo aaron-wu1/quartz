@@ -1,7 +1,14 @@
 ---
-title: "Databases"
-date: "2023-12-31"
+date: '2023-12-31'
+tags:
+- databases
+- distributed-systems
+- caching
+- performance
+- security
+title: Databases
 ---
+
 ### Types of Databases:
 - [[Relational Databases]]
 - [[NoSQL Databases]]

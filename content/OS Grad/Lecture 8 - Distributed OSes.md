@@ -1,9 +1,17 @@
 ---
 date: 2025-10-21
 tags:
-  - OS
-  - distributed-systems
+- distributed-systems
+- operating-systems
+- caching
+- concurrency
+- computer-architecture
+- storage
+- performance
+- virtualization
+title: Lecture 8 - Distributed OSes
 ---
+
 - interfaces - exposed vs transparent
 - Centralization vs distribution
 - implementation
@@ -147,5 +155,3 @@ Need to implement a significant part of LinuxOS
 - Splitkernel approach -> disaggregated OS
 - Exploring this extreme point in design space
 	- learning a lot about limits of research and how to backoff and create something valuable
-
-

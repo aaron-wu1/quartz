@@ -1,7 +1,11 @@
 ---
 date: 2025-10-31
 tags:
+- performance
+- ai
+title: Lec 15 - Reasoning Models
 ---
+
 ## What is LLM reasoning?
 ![[Screenshot 2025-10-31 at 9.07.53 AM.png]]
 ## Example

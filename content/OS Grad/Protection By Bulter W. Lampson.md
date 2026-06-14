@@ -1,7 +1,11 @@
 ---
 date: 2025-10-07
-tags: 
+tags:
+- operating-systems
+- security
+title: Protection By Bulter W. Lampson
 ---
+
 Source: https://dl.acm.org/doi/pdf/10.1145/775265.775268
 
 ## Introduction

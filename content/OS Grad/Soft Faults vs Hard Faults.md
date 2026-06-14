@@ -1,7 +1,10 @@
 ---
 date: 2025-11-09
 tags:
+- operating-systems
+title: Soft Faults vs Hard Faults
 ---
+
 Soft faults - when the page is in RAM but not loaded into the process or mapped to the process' address space.
 - Cases:
 	- `fork()` and copy-on-write

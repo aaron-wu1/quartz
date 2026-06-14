@@ -1,7 +1,14 @@
 ---
 date: 2025-11-19
 tags:
+- storage
+- performance
+- operating-systems
+- caching
+- computer-architecture
+title: The Design and Implementation of a Log-Structured File System
 ---
+
 Source: https://dl.acm.org/doi/pdf/10.1145/121132.121137
 
 ## Abstract

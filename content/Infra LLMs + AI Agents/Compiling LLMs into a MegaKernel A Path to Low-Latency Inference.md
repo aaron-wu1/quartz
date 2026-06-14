@@ -1,7 +1,14 @@
 ---
 date: 2025-10-14
 tags:
+- performance
+- concurrency
+- computer-architecture
+- distributed-systems
+- ai
+title: Compiling LLMs into a MegaKernel A Path to Low-Latency Inference
 ---
+
 source: https://zhihaojia.medium.com/compiling-llms-into-a-megakernel-a-path-to-low-latency-inference-cf7840913c17
 
 ## Summary

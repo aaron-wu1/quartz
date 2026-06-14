@@ -1,9 +1,14 @@
 ---
 date: 2025-11-17
 tags:
-  - OS
-  - Google
+- operating-systems
+- performance
+- concurrency
+- virtualization
+- computer-architecture
+title: Snap - a microkernel approach to host networking
 ---
+
 source: https://dl.acm.org/doi/abs/10.1145/3341301.3359657
 
 ## Abstract

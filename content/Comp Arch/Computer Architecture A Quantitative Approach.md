@@ -1,7 +1,13 @@
 ---
 date: 2025-10-01
-tags: 
+tags:
+- computer-architecture
+- concurrency
+- performance
+- caching
+title: Computer Architecture A Quantitative Approach
 ---
+
 ## Fundamentals of Quantitative Design and Analysis
 
 ### Classes of Computers

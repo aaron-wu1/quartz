@@ -1,7 +1,11 @@
 ---
 date: 2025-11-25
 tags:
+- security
+- ai
+title: Security of AI Agents
 ---
+
 source: https://arxiv.org/pdf/2406.08689
 
 ## Summary

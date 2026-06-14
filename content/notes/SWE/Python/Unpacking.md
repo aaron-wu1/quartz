@@ -1,7 +1,10 @@
 ---
 date: 2025-10-17
 tags:
+- programing-language
+title: Unpacking
 ---
+
 source: https://peps.python.org/pep-0448/
 
 Using `*` or `**` allows unpacking of undefined structured data structures into typed data structure definitions

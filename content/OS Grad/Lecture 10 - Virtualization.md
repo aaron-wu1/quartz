@@ -1,7 +1,15 @@
 ---
 date: 2025-10-28
 tags:
+- virtualization
+- operating-systems
+- performance
+- security
+- computer-architecture
+- distributed-systems
+title: Lecture 10 - Virtualization
 ---
+
 ![[Virtualization]]
 
 ## [[The Origin of the VM 370 Time-Sharing System|VM 370]]

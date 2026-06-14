@@ -1,18 +1,16 @@
 ---
 date: 2025-10-01
 tags:
-  - "#summary"
-  - "#operating-systems"
-  - "#file-system"
-  - "#unix"
-  - "#system-design"
-  - "#file-system-implementations"
-  - "#machine-learning"
-  - "#artificial-intelligence"
-  - "#transformer-models"
-  - "#natural-language-processing"
-  - "#Performance"
+- operating-systems
+- performance
+- distributed-systems
+- caching
+- storage
+- computer-architecture
+- ai
+title: Lec 2 - Understanding LLM Performance
 ---
+
 ## Outline
 - Transformer primer
 	- Introduction oriented for LLM infra (perf problems), not the theory

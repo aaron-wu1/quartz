@@ -1,11 +1,15 @@
 ---
 date: 2025-11-15
 tags:
-  - OS
-  - network
-  - performance
-  - I/O
+- performance
+- operating-systems
+- virtualization
+- concurrency
+- security
+- distributed-systems
+title: IX - A Protected Dataplane Operating System forHigh Throughput and Low Latency
 ---
+
 Source: https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-belay.pdf
 
 ## Abstract
@@ -128,10 +132,3 @@ Each IX control plane
 ### Security
 - Application code in IX runs in user-mode
 - Dataplane code runs in protected ring 0
-
-
-
-
-
-
-

@@ -1,7 +1,13 @@
 ---
 date: 2025-10-05
-tags: 
+tags:
+- operating-systems
+- security
+- concurrency
+- computer-architecture
+title: HYDRA The Kernel of a Multiprocesssor Operating System
 ---
+
 ## Questions
 Q: How is a Hydra procedure different from the procedures we are familiar with in a typical language and runtime environment?
 
@@ -110,4 +116,3 @@ HYDRA lets programmers build their own protected subsystems safely (eg. file sys
 “**Mechanism in the kernel; policy in user space.**”
 - Mechanism - implantation of logic to handle rights, primitives to utilize resources
 - Policy - subsystems themselves determines how those mechanism are used
-

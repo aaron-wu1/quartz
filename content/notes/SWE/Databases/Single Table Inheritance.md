@@ -1,8 +1,10 @@
 ---
-title: Single Table Inheritance
 date: 2024-01-03
 tags:
+- databases
+title: Single Table Inheritance
 ---
+
 Used in [[Relational Databases|relational databases]], aimed to minimize table joins.
 
 

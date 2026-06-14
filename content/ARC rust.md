@@ -1,11 +1,9 @@
 ---
-title: ARC rust
 date: 2025-09-25
 tags:
-  - "#communication"
-  - "#productivity"
-  - "#thread-safety"
-  - "#smart-pointers"
+- programing-language
+- concurrency
+title: ARC rust
 ---
 
 Atomic Reference Counter pointer - thread safe smart pointer that allows multiple parts of your program to share ownership of some data

@@ -1,7 +1,10 @@
 ---
-title: "@property decorator"
 date: 2024-01-03
+tags:
+- programing-language
+title: '@property decorator'
 ---
+
 ### Purpose
 property objects provides an interface for getter and setter functions. The [[Decorator|decorator]] creates a property object interface for the inner function.
 

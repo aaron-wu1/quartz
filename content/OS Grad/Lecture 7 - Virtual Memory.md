@@ -1,7 +1,15 @@
 ---
 date: 2025-10-16
 tags:
+- operating-systems
+- virtualization
+- performance
+- security
+- computer-architecture
+- caching
+title: Lecture 7 - Virtual Memory
 ---
+
 ## VAX + Unix - popular at universities
 - VAX ideas spread to Windows because one of the authors ended up working there 
 ### VAX/VMS
@@ -142,4 +150,3 @@ Systems derived from it:
 
 ### Summary Mach
 - Separate VM representation from machine dependent and machine independent
-

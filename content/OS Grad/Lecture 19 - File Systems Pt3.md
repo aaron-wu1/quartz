@@ -1,7 +1,15 @@
 ---
 date: 2025-12-04
 tags:
+- distributed-systems
+- operating-systems
+- concurrency
+- virtualization
+- storage
+- performance
+title: Lecture 19 - File Systems Pt3
 ---
+
 e## GFS
 - 2003
 - **Setting**

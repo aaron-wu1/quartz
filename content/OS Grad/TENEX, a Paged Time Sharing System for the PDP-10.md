@@ -1,8 +1,15 @@
 ---
 date: 2025-10-01
 tags:
-  - summary
+- operating-systems
+- virtualization
+- computer-architecture
+- performance
+- concurrency
+- security
+title: TENEX, a Paged Time Sharing System for the PDP-10
 ---
+
 Paper Source: https://dl.acm.org/doi/pdf/10.1145/361268.361271
 Summary of TENEX, a Paged Time Sharing System for the PDP-10 by Daniel G. Bobrow, Jerry D. Burchfiel, Daniel L. Murphy, and Raymond S. Tomlinson Bolt Beranek and Newman Inc.*
 

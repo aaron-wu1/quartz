@@ -1,7 +1,14 @@
 ---
 date: 2025-10-10
-tags: 
+tags:
+- caching
+- performance
+- concurrency
+- programing-language
+- ai
+title: Lec 6 - vLLM and Paged Attention
 ---
+
 ## KV Cache
 - Memory space to store intermediate vector representations of tokens
 	- Working set rather than a “cache”

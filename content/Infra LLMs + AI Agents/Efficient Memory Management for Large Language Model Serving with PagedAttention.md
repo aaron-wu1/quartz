@@ -1,7 +1,14 @@
 ---
 date: 2025-10-10
-tags: 
+tags:
+- distributed-systems
+- caching
+- performance
+- concurrency
+- ai
+title: Efficient Memory Management for Large Language Model Serving with PagedAttention
 ---
+
 Source: https://arxiv.org/pdf/2309.06180
 
 ## Summary
@@ -27,4 +34,3 @@ The serving system's throughput is *memory-bound* and overcoming this memory-bou
 - **Large KV cache**
 - **Complex decoding algorithms**
 - **Scheduling for unknown input and output length**
-

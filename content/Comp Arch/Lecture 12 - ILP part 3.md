@@ -1,7 +1,12 @@
 ---
 date: 2025-11-04
 tags:
+- computer-architecture
+- performance
+- concurrency
+title: Lecture 12 - ILP part 3
 ---
+
 ## ILP in real code
 
 ## Exposing More ILP
@@ -47,5 +52,4 @@ tags:
 - Then our primary problem becomes true dependencies
 	- Some of them large (long latencies)
 - Can we execute faster than true dependencies allow
-- 
-
+-

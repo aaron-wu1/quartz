@@ -1,7 +1,11 @@
 ---
 date: 2025-09-30
-tags: 
+tags:
+- performance
+- computer-architecture
+title: Lecture 2 - Quantitative Computer Architecture
 ---
+
 ## Idea
 How to measure, analyze, and specify computer system performance
 
@@ -96,5 +100,3 @@ $CPI = CPU\ clock\ cycles / Instruction\ count$
 **Deep pipeline**: refers to a processor design where the instruction exectuion process is divided into a greater number of stages than shallower pipelines
 
 Strength reduction -> simpler instructions -> easier to pipeline -> lowers CPI
-
-

@@ -1,7 +1,10 @@
 ---
-title: "Generics TypeScript"
-date: "2025-09-16"
+date: '2025-09-16'
+tags:
+- programing-language
+title: Generics TypeScript
 ---
+
 Make abstractions to make code a lot more DRY and less excess type annotations
 
 Pattern 1 (generic types with type helpers):
@@ -183,4 +186,3 @@ const stringSet = createSet<string>();
 const otherStringSet = createSet();
 // const createSet: <string>() => Set<string>
 ```
-

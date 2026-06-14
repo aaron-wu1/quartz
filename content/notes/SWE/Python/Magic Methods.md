@@ -1,7 +1,10 @@
 ---
-title: Magic Methods
 date: 2024-01-04
+tags:
+- programing-language
+title: Magic Methods
 ---
+
 ### Defintion
 Special methods that are represented in python with double underscores on either side
 

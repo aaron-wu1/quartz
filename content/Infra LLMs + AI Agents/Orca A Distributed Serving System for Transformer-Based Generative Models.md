@@ -1,7 +1,14 @@
 ---
 date: 2025-10-07
-tags: 
+tags:
+- distributed-systems
+- performance
+- concurrency
+- computer-architecture
+- ai
+title: Orca A Distributed Serving System for Transformer-Based Generative Models
 ---
+
 source: [Orca: A Distributed Serving System for Transformer-Based Generative Models (OSDI'22)](https://www.usenix.org/conference/osdi22/presentation/yu)
 
 ## Summary

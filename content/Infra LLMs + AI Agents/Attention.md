@@ -1,7 +1,11 @@
 ---
 date: 2025-10-21
 tags:
+- performance
+- ai
+title: Attention
 ---
+
 Traditional RNN, Attention optimizes model performance by only going through needed decode stages rather than all (reduces path length)
 ![[Screenshot 2025-10-21 at 7.12.29 PM.png]]
 Transformer Architecture

@@ -1,7 +1,11 @@
 ---
-title: "The CAP Theorem"
-date: "2023-12-31"
+date: '2023-12-31'
+tags:
+- distributed-systems
+- databases
+title: The CAP Theorem
 ---
+
 A distributed system can deliver only two of three characteristics of:
 - Consistency
 - Availability

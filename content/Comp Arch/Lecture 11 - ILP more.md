@@ -1,7 +1,11 @@
 ---
 date: 2025-10-30
 tags:
+- computer-architecture
+- performance
+title: Lecture 11 - ILP more
 ---
+
 ## Pipeline Perf.
 ![[Screenshot 2025-10-30 at 2.12.26 PM.png]]
 Where:
@@ -93,4 +97,4 @@ Need lots of registers because of loop unrolling, multiplying the number of regi
 - Intel pentium 4
 	- (at one point) apex of ooo processors, subsequent processors back...
 	- ...
-	- 
+	-

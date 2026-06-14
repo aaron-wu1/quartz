@@ -1,7 +1,10 @@
 ---
-title: enums
 date: 2024-01-04
+tags:
+- programing-language
+title: enums
 ---
+
 ### Definition
 Short for enumerations and represents a set of symbolic names bound to unique values
 ### Example usage

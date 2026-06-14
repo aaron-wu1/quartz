@@ -1,7 +1,15 @@
 ---
 date: 2025-11-29
 tags:
+- operating-systems
+- storage
+- caching
+- performance
+- security
+- concurrency
+title: Soft Updates - A Solution to the Metadata Update Problem in File Systems
 ---
+
 Source: https://users.ece.cmu.edu/~ganger/papers/softupdates.pdf
 
 ## Core Issue

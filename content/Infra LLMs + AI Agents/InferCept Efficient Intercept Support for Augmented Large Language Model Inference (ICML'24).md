@@ -1,7 +1,15 @@
 ---
 date: 2025-10-25
 tags:
+- caching
+- performance
+- concurrency
+- computer-architecture
+- ai
+title: InferCept Efficient Intercept Support for Augmented Large Language Model Inference
+  (ICML'24)
 ---
+
 source: https://arxiv.org/abs/2402.01869
 ## Summary
 The paper introduces InferCept, an efficient intercept support for augmented LLMs. LLMs are increasingly augmented with external tools that pause the LLM's decoding during inference. When that happens an LLM has three options: discard the context, preserve the context, or swap the context to CPU. Each of these options has GPU time and memory tradeoffs and InferCept is a system that is able to dynamically choose which option to take to minimize total GPU memory waste while maintaining throughput. It also improves the individual options to reduce and eliminate their memory waste.
@@ -49,6 +57,3 @@ At each iteration:
 - Assign a **swap budget** to the most wasteful ones.
 - For others, choose **preserve or discard** adaptively.
 - Resume swapped/discarded requests using **FCFS fairness** while ensuring GPU saturation
-
-
-

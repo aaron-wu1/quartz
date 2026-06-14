@@ -1,7 +1,12 @@
 ---
 date: 2025-10-02
-tags: 
+tags:
+- computer-architecture
+- performance
+- concurrency
+title: Lecture 3 - Instruction Set Architecture
 ---
+
 ## The Instruction Set Architecture
 ![[Screenshot 2025-10-02 at 2.04.20 PM.png]]
 

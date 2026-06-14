@@ -1,7 +1,10 @@
 ---
-title: Unlocking Intuition
 date: 2024-01-05
+tags:
+- personal-growth
+title: Unlocking Intuition
 ---
+
 ### What is Intuition?
 **Note:**
 Brain has two sides

@@ -1,7 +1,13 @@
 ---
 date: 2025-10-03
-tags: 
+tags:
+- distributed-systems
+- ai
+- performance
+- concurrency
+title: Lec 3 - Distributed Model Training
 ---
+
 ## Neural Network Training
 - Feedforward and back propagation gradient descent
 ![[Screenshot 2025-10-03 at 9.05.15 AM.png]]
@@ -42,4 +48,3 @@ tags:
 ![[Screenshot 2025-10-03 at 9.22.32 AM.png]]
 ![[Screenshot 2025-10-03 at 9.24.41 AM.png]]
 *Note:* last two are typically used in industry atm
-

@@ -1,7 +1,12 @@
 ---
 date: 2025-10-16
 tags:
+- computer-architecture
+- performance
+- ai
+title: Lecture 7 - The YAGS Branch Prediction Scheme
 ---
+
 ## YAGS Branch Prediction Scheme A. N. Eden and T. Mudge
 What's the big problem they are trying to solve?
 - conflicts with predictions with limited hash addrs

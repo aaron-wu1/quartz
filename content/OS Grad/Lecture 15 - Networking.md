@@ -1,7 +1,15 @@
 ---
 date: 2025-11-13
 tags:
+- distributed-systems
+- concurrency
+- performance
+- operating-systems
+- communication
+- security
+title: Lecture 15 - Networking
 ---
+
 ## RPC 
 Network communication -> cast as a procedure call
 ### Goals

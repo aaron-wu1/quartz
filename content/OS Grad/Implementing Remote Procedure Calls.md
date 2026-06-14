@@ -1,9 +1,13 @@
 ---
 date: 2025-11-12
 tags:
-  - RPC
-  - OS
+- distributed-systems
+- databases
+- security
+- performance
+title: Implementing Remote Procedure Calls
 ---
+
 ## Background
 Classic seminal paper on RPC with goal to make remote communication accessible to as many programmers as possible.
 

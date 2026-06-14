@@ -1,7 +1,14 @@
 ---
 date: 2025-10-21
 tags:
+- distributed-systems
+- performance
+- concurrency
+- ai
+title: DeepSpeed Ulysses System Optimizations for Enabling Training of Extreme Long
+  Sequence Transformer Models (PODC '24)
 ---
+
 ## Summary
 The authors present DeepSpeed-Ulysses a novel, portable and effective methodology for enabling highly efficient and scalable LLM training with extremely long sequence length. Longer sequences increase memory and communication costs in attention. In order to speed up inference, the authors decided to partition the long sequence. Right before attention computation, it employs all-to-all communication collection on the partitioned queries, keys, and values such that each GPU receives the full sequence but only for a non-overlapping subset of attention heads. This allows for GPUs to compute attention for different attention heads in parallel. Lastly an all-to-all to gather the results along the attention heads while re-partitioning along the sequence dimension
 

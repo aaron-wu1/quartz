@@ -1,7 +1,12 @@
 ---
 date: 2025-10-25
 tags:
+- computer-architecture
+- performance
+- concurrency
+title: Tomasulo’s algorithm
 ---
+
 ## Problem Tomasulo Solves
 consider
 ```text

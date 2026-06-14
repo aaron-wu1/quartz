@@ -1,9 +1,10 @@
 ---
-title: "Three Daily Quests"
-date: "2023-12-30"
+date: '2023-12-30'
 tags:
-- productivity
+- personal-growth
+title: Three Daily Quests
 ---
+
 Idea is to complete tasks, daily, in these three categories: Work, Health, Relationships
 Source (by Ali Abdaal):
 https://youtu.be/6o2tm00Ar8A?t=994

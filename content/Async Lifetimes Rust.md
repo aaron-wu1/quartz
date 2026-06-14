@@ -1,7 +1,10 @@
 ---
-title: "Async Lifetimes Rust"
-date: "2025-09-25"
+date: '2025-09-25'
+tags:
+- programing-language
+title: Async Lifetimes Rust
 ---
+
 ```rust
 // This function: 
 async fn foo(x: &u8) -> u8 { *x } 

@@ -1,7 +1,14 @@
 ---
 date: 2025-11-13
 tags:
+- databases
+- performance
+- storage
+- ai
+title: SimpleDoc Multi-Modal Document Understanding with Dual-Cue Page Retrieval and
+  Iterative Refinement
 ---
+
 ## Background
 A potential agent use case for Document Visual Question Answering (DocVQA)
 - Ask questions based on documents while referring to multiple pages and different modalities of information
@@ -22,6 +29,3 @@ A. The offline indexing cost and complexity depends on both the visual pipeline 
 B. The online query latency is going to be dominated the retrieval reasoning agent and the query reasoning agent. The retrieval reasoning agent need to identify which selected summaries to retrieve and the query reasoning agent decides if it has enough information. If the query reasoning agent decides if there isn't enough information, the whole process loops which further adds to the latency.
 
 C. Any new documents has to go through the costly indexing pipeline. Without the embeddings the retrieval part fails and without summaries the re-ranking fails. Fully processed documents are required to surface up to the reasoner agent.
-
-
-

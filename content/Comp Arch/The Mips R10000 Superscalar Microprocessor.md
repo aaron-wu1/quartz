@@ -1,7 +1,13 @@
 ---
 date: 2025-10-25
 tags:
+- computer-architecture
+- performance
+- caching
+- concurrency
+title: The Mips R10000 Superscalar Microprocessor
 ---
+
 ## Background
 R10000 was MIP's attempt to compete with mid-1990s high-end CPUs
 

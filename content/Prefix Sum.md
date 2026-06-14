@@ -1,7 +1,10 @@
 ---
-title: Prefix Sum
 date: 2024-01-06
+tags:
+- performance
+title: Prefix Sum
 ---
+
 ### Introduction
 Used to solve [[Subarrays Problems|subarray]] related problems that asks about the sum of the subarrays.
 

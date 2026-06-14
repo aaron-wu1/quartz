@@ -1,7 +1,10 @@
 ---
-title: Refresh Token Flow
 date: 2024-01-21
+tags:
+- security
+title: Refresh Token Flow
 ---
+
 ### Purpose
 To generate a new access token to replace expired ones.
 A refresh token is created in order to refresh the access token.

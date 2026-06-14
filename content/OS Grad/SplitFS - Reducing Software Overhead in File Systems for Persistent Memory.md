@@ -1,7 +1,14 @@
 ---
 date: 2025-11-30
 tags:
+- operating-systems
+- storage
+- performance
+- caching
+- concurrency
+title: SplitFS - Reducing Software Overhead in File Systems for Persistent Memory
 ---
+
 ## Abstract
 - **SplitFS** - file system for persistent memory (PM) that reduces software overhead compared to state-of-the-art PM file systems
 	- Split of responsibilities between a user-space library file system and an existing kernel PM file system

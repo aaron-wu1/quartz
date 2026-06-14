@@ -1,7 +1,11 @@
 ---
-title: "Database Indexes"
-date: "2024-01-01"
+date: '2024-01-01'
+tags:
+- databases
+- performance
+title: Database Indexes
 ---
+
 ### What is an index?
 A data structure that you build and assign on top of table that summarizes the data with shortcuts
 

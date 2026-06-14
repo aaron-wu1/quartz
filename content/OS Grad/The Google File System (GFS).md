@@ -1,7 +1,13 @@
 ---
 date: 2025-12-03
 tags:
+- distributed-systems
+- storage
+- performance
+- concurrency
+title: The Google File System (GFS)
 ---
+
 Source: https://dl.acm.org/doi/pdf/10.1145/945445.945450
 
 ## Abstract
