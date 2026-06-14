@@ -1,7 +1,7 @@
 ---
 date: 2026-01-17
 tags:
-title: autotemplate
+title: Index Introduction
 ---
 source: https://use-the-index-luke.com/
 Note: Use-the-index only focuses on B-Tree indexes

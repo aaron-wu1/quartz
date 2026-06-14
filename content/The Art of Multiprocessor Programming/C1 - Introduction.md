@@ -1,7 +1,7 @@
 ---
 date: 2026-01-21
 tags:
-title: autotemplate
+title: C1 - Introduction
 ---
 ## Shared Objects
 Runs into collision issues, how can access to share objects be *mutually exclusive*.

@@ -1,7 +1,7 @@
 ---
 date: 2026-01-06
 tags:
-title: autotemplate
+title: Storage and Retrieval
 ---
 Two families of storage engines:
 - *log-structured* storage

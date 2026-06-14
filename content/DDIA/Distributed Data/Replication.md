@@ -1,7 +1,7 @@
 ---
 date: 2026-01-21
 tags:
-title: autotemplate
+title: Replication
 ---
 *Replication* - copying the same data on multiple machines that are connected via a network.
 - Keep data geographically close to your users (reduce latency)

@@ -1,7 +1,7 @@
 ---
 date: 2026-02-18
 tags:
-title: autotemplate
+title: Two Phase Commit
 ---
 Ref: 
 - https://martinfowler.com/articles/patterns-of-distributed-systems/two-phase-commit.html

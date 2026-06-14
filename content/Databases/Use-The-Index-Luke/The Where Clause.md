@@ -1,7 +1,7 @@
 ---
 date: 2026-01-17
 tags:
-title: autotemplate
+title: The Where Clause
 ---
 The `where` clause defines the search condition of an SQL statement. The key constraints of what makes a good index is: how flexible the index is and how different operators affect index usage.
 

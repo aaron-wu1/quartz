@@ -1,7 +1,7 @@
 ---
 date: 2026-02-24
 tags:
-title: autotemplate
+title: Introduction to Building AI Applications with Foundation Models
 ---
 ## Context of where AI is currently
 **Big issue is scale** 

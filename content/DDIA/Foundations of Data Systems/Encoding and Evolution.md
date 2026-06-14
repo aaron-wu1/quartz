@@ -1,7 +1,7 @@
 ---
 date: 2026-01-17
 tags:
-title: autotemplate
+title: Encoding and Evolution
 ---
 ## Changes to Schema or Data Formats
 In a large application, code changes often cannot happen instantaneously.

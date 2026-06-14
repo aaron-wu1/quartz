@@ -1,7 +1,7 @@
 ---
 date: 2026-02-20
 tags:
-title: autotemplate
+title: The Trouble with Distributed Systems
 ---
 Reality with distributed systems is to assume that **anything that can go wrong will go wrong**. 
 

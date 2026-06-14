@@ -1,7 +1,7 @@
 ---
 date: 2026-02-17
 tags:
-title: autotemplate
+title: Partitioning
 ---
 **Partitioning** - for very large datasets, or very high query throughput, we need to break the data up into *partitions*, also known as *sharding*.
 - The core reason for partitioning data is *scalability*. Different partitions can be placed on different nodes in a shared-nothing cluster

@@ -1,7 +1,7 @@
 ---
 date: 2026-02-18
 tags:
-title: autotemplate
+title: Transactions
 ---
 Implementing fault-tolerance mechanisms is complex. 
 

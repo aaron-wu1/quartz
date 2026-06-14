@@ -1,7 +1,7 @@
 ---
 date: 2026-02-17
 tags:
-title: autotemplate
+title: Coordinator Services
 ---
 ## Big Idea
 **Consensus is slow, but we need it!**
