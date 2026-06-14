@@ -5,7 +5,7 @@ tags:
 title: Hi, I'm Aaron!
 ---
 ## About Me
-I'm currently an SWE at Microsoft!s
+I'm currently an SWE at Microsoft!
 
 My past experiences include:
 - [Lawerence Livermore National Laboratory](https://www.llnl.gov/) as a Software Engineering Intern on search, improving access and discovery of digital assets in a data repository platform  
